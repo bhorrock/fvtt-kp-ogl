@@ -1,0 +1,32 @@
+{
+  "name": "Shadow Realm gifts",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "jest",
+    "scan-xml": "node ./.github/scripts/scan-xml.js"
+  },
+  "devDependencies": {
+    "directory-tree": "^3.5.1",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "jest": "^27.5.1",
+    "@xmldom/xmldom": "^0.7.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "rules": {
+      "no-extra-semi": 1,
+      "curly": "error"
+    }
+  },
+  "dependencies": {
+  }
+}
