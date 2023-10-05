@@ -2,11 +2,20 @@
   "name": "koboldpressogl",
   "title": "Kobold Press OGL Compendium",
   "description": "Content from kpogl.wikidot.com converted automatically",
-  "version": "0.27",
+  "version": "0.26",
   "author": "Deuce",
   "manifest": "https://bhorrock.github.io/fvtt-kp-ogl/module.json",
   "download": "http://bhorrock.github.io/fvtt-kp-ogl/koboldpressogl.zip",
-  "systems": ["dnd5e"],
+  "systems": [
+    {
+      "id": "dnd5e",
+      "type": "system",
+      "compatibility": {
+        "minimum": "2.0.1",
+        "verified": "2.2.1"
+      }
+    }
+  ],
   "styles": [],
   "packs": [
     {
@@ -14,17 +23,15 @@
       "label": "OGL Kobold Press Monsters",
       "system": "dnd5e",
       "type": "Actor",
-      "path": "packs/KPmonsters.db"
+      "path": "./packs/KPmonsters.db"
     },
     {
       "name": "koboldpressspells",
       "label": "OGL Kobold Press Spells",
       "system": "dnd5e",
       "type": "Item",
-      "path": "packs/KPspells.db"
+      "path": "./packs/KPspells.db"
     }
   ],
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.8",
-  "compatibility": { "minimum": "9", "verified": "10" }
+  "compatibility": { "minimum": "9", "verified": "10", "maximum": "11" }
 }
