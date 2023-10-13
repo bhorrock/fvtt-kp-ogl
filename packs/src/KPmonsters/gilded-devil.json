@@ -1,0 +1,1696 @@
+{
+  "_id": "KPgildeddevil",
+  "name": "Gilded Devil",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 6
+      },
+      "dex": {
+        "value": 15,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "con": {
+        "value": 17,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 6
+      },
+      "int": {
+        "value": 15,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "wis": {
+        "value": 18,
+        "min": 3,
+        "proficient": 1,
+        "mod": 4,
+        "save": 7
+      },
+      "cha": {
+        "value": 17,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16
+      },
+      "hp": {
+        "value": 112,
+        "min": 0,
+        "max": 112,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d8+45"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>This tall, bronze-complexioned man is abnormally long-limbed and clad in armor of stained and battered coins. His wiry frame is festooned with mismatched bracelets, rings, and necklaces, each gaudier than the last. The easy smile on his face is cold with envy.</em><br><strong>Servants of Mammon.</strong> Rarely seen in their natural form outside of Hell, gilded devils are the servitors of Mammon, archdevil of greed. They tempt and corrupt with promises of wealth, power, and fame, twisting mortal greed into sure damnation.<br><strong>Impression of Wisdom.</strong> When pursuing a mortal of high standing, gilded devils prefer unassuming appearances, molding their flesh and gaudy trappings to make themselves look the parts of wise advisers, canny merchants, or sly confidants.<br><strong>Fond of Gold and Jewels.</strong> Even in their humblest form, gilded devils always wear a piece of golden jewelry or a jeweled button or ornament.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "lawful evil",
+      "race": "devil",
+      "type": "fiend",
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 0,
+      "xp": {
+        "value": 2900
+      },
+      "source": "ToB,WL14"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "fire",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "custom"
+        ],
+        "custom": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "darkvision 60 ft.",
+      "languages": {
+        "value": [
+          "celestial",
+          "common",
+          "draconic",
+          "custom"
+        ],
+        "custom": "Infernal; telepathy (120 ft.)"
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 3,
+        "max": 3
+      },
+      "spell2": {
+        "value": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "max": 3
+      },
+      "spell4": {
+        "value": 3,
+        "max": 3
+      },
+      "spell5": {
+        "value": 1,
+        "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Gilded Devil",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPgildeddevil",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Devil's Sight",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Magical darkness doesn’t impede the devil’s darkvision.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Liar's Largesse",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A gilded devil has influence over the recipient of a gift for as long as that creature retains the gift. The recipient receives a -2 penalty on saving throws against the gilded devil’s abilities and a further -10 penalty against scrying attempts made by the gilded devil. A remove curse spell removes this effect.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blue_18.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The devil has advantage on saving throws against spells and other magical effects.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Magic Weapons",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_04.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The gilded devil’s weapon attacks are magical.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The gilded devil’s spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The gilded devil can innately cast the following spells, requiring no material components:<br>At will: @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{detect thoughts}, @Compendium[dnd5e.spells.nslx2nT3p4lNkmdp]{major image}, @Compendium[dnd5e.spells.zMAWdyc8UVb37BK4]{suggestion}<br>3/day each: @Compendium[dnd5e.spells.91Sw6vOIaO7U8DvM]{dominate person}, @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{polymorph}, @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{scorching ray} (4 rays), @Compendium[dnd5e.spells.fVbCxFRaORalHB20]{scrying}<br>1/day: @Compendium[dnd5e.spells.L4J89JXqbKs6puEV]{teleport} (self plus 50 lb. of objects only)",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The gilded devil makes two heavy flail attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "name": "Heavy Flail (Scourge of Avarice)",
+      "type": "weapon",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "name": "Betrayal of Riches",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>As a bonus action, a gilded devil can turn rings, necklaces, and other jewelry momentarily against their wearer. The devil can affect any visible item of jewelry on up to two creatures within 60 feet, twisting them into cruel barbs and spikes. Each target must succeed on a DC 15 Wisdom saving throw to halve the damage from this effect. If the saving throw fails, the victim takes 13 (3d8) piercing damage and an additional effect based on the item location targeted.<table><tr><th>Location</th><th>Effect</th></tr><tr><td>Arms</td><td>Melee damage halved until short rest</td></tr><tr><td>Hand</td><td>Drop any held item</td></tr><tr><td>Eyes</td><td>Permanently @Compendium[dnd5e.rules.995mfaI3z7WtY7vK]{blinded}</td></tr><tr><td>Head</td><td>Disadvantage on Int checks until long rest</td></tr><tr><td>Feet</td><td>Speed halved for 24 hours</td></tr><tr><td>Neck</td><td>Stunned, unable to breathe for 1 round</td></tr><tr><td>Other</td><td>No additional effect</td></tr></table><br>An item is treated as jewelry if it is made of a precious material (such as silver, gold, ivory, or adamantine), adorned with gems, or both, and is worth at least 100 gp.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 60,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "piercing"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 15
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "flags": {},
+      "name": "Scorn Base Metals",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A gilded devil’s attacks ignore any protection provided by nonmagical armor made of bronze, iron, steel, or similar metals. Protection provided by valuable metals such as adamantine, mithral, and gold apply, as do bonuses provided by non-metallic objects.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000010",
+      "flags": {},
+      "name": "Scourge of Avarice",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>As a bonus action, a gilded devil wearing jewelry worth at least 1,000 gp can reshape it into a +2 heavy flail. A creature struck by this jeweled flail suffers disadvantage on all Wisdom saving throws until his or her next short rest, in addition to normal weapon damage. The flail reverts to its base components 1 minute after it leaves the devil’s grasp, or upon the gilded devil’s death.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000011",
+      "flags": {},
+      "name": "Voracious Greed",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>As an action, a gilded devil can consume nonmagical jewelry or coinage worth up to 1,000 gp. For each 200 gp consumed, it heals 5 hp of damage. A gilded devil can use this ability against the worn items of a @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} foe. The target must succeed on a DC 13 Dexterity saving throw to keep an item from being consumed.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 13
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000012",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/light-eerie-2.jpg",
+      "name": "Detect Thoughts",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "div",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a copper piece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.<br>You initially learn the surface thoughts of the creature-what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.<br>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.<br>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.<br>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000013",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-grasp-magenta-2.jpg",
+      "name": "Major Image",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "ill",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You create the image of an object, a creature, or some other Visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).<br>As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.<br>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000014",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/air-burst-magenta-2.jpg",
+      "name": "Suggestion",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.<br>The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.<br>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.<br>If you or any of your companions damage the target, the spell ends.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000015",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/air-burst-magenta-3.jpg",
+      "name": "Dominate Person",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 5,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.<br>While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as &quot;Attack that creature,” &quot;Run over there,” or &quot;Fetch that object.” Ifthe creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.<br>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.<br>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000016",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/link-eerie-2.jpg",
+      "name": "Polymorph",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a caterpillar cocoon",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.<br>The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.<br>The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked @Compendium[dnd5e.rules.MOk1rkF0DeJlcC4l]{unconscious}.<br>The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.<br>The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000017",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/beam-red-2.jpg",
+      "name": "Scorching Ray",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "rsak",
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.<br>Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000018",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/evil-eye-eerie-3.jpg",
+      "name": "Scrying",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 5,
+        "school": "div",
+        "activation": {
+          "type": "minute",
+          "cost": "10",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water",
+          "consumed": false,
+          "cost": 1000,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.<table><tr><th>Knowledge</th><th>Save Modifier</th></tr><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr><tr><th>Connection</th><th>Save Modifier</th></tr><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></table><br>On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.</table><br>On a failed save, the spell creates an @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible} sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.</table><br>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000019",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/runes-magenta-3.jpg",
+      "name": "Teleport",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 7,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 10,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [
+            [
+              "3d10",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.<br>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls d100 and consults the table.<table><tr><th>Familiarity</th><th>Mishap</th><th>Similar Area</th><th>Off Target</th><th>On Target</th></tr><tr><td>Permanent circle</td><td>-</td><td>-</td><td>-</td><td>01-100</td></tr><tr><td>Associated object</td><td>-</td><td>-</td><td>-</td><td>01-100</td></tr><tr><td>Very familiar</td><td>01-05</td><td>06-13</td><td>14-24</td><td>25-100</td></tr><tr><td>Seen casually</td><td>01-33</td><td>34-43</td><td>44-53</td><td>54-100</td></tr><tr><td>Viewed once</td><td>01-43</td><td>44-53</td><td>54-73</td><td>74-100</td></tr><tr><td>Description</td><td>01-43</td><td>44-53</td><td>54-73</td><td>74-100</td></tr><tr><td>False destination</td><td>01-50</td><td>51-100</td><td>-</td><td>-</td></tr></table><br><em><strong>Familiarity.</strong></em> &quot;Permanent circle” means a permanent teleportation circle whose sigil sequence you know. &quot;Associated object” means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.</table><br>&quot;Very familiar” is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. &quot;Seen casually” is someplace you have seen more than once but with which you aren't very familiar. &quot;Viewed once” is a place you have seen once, possibly using magic. &quot;Description” is a place whose location and appearance you know through someone else's description, perhaps from a map.</table><br>&quot;False destination” is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.</table><br><em><strong>On Target.</strong></em> You and your group (or the target object) appear where you want to.</table><br><em><strong>Off Target.</strong></em> You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The GM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</table><br><em><strong>Similar Area.</strong></em> You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</table><br><em><strong>Mishap.</strong></em> The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage, and the GM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000020",
+      "name": "Special AC",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><b>Armor Class</b> 16 <p>(coin mail)</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

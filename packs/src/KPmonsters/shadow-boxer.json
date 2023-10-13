@@ -1,0 +1,711 @@
+{
+  "_id": "KPshadowboxer",
+  "name": "Shadow Boxer",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "dex": {
+        "value": 17,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 5
+      },
+      "con": {
+        "value": 15,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "int": {
+        "value": 12,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "wis": {
+        "value": 17,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "cha": {
+        "value": 17,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 13
+      },
+      "hp": {
+        "value": 55,
+        "min": 0,
+        "max": 55,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "10d6+20"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 30,
+        "fly": 0,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>The shadow caught the man’s eye. It looked and moved like a house cat, but there was no animal present to cast it. He followed the shadow as it moved along the wall then transferred to the ground, not noticing the distortion of light behind him. The last thing he heard as the invisible feline tore out his throat was a contented purr.</em><br><strong>Finicky Spirits.</strong> Shadow boxers are the physical manifestation of feline collective memory. They are found in urban areas and other places people congregate. Like other fey, they desire to be placated by mortals, and they allow their presence to be detected to induce people to leave them gifts. A shadow boxer develops relationships with one household at a time and protects it. Households that don’t leave sufficient tribute or that cease offering it gifts entirely swiftly find their members targeted by the slighted fey.<br><strong>Council of Cats.</strong> When they sleep, shadow boxers share dreams with all mundane cats and other shadow boxers within a mile. Within the dream, the cats and the shadow boxer gambol and roughhouse while they share information. Many capers and activities are planned during these dream sessions, and seeing a large clowder of cats getting along is a sign that a shadow boxer in the area has a game afoot. Shadow boxers despise creatures, such as @Compendium[koboldpressogl.koboldpressmonsters.KPheggarna]{heggarna}, that use the “good name” of cats to harm others or spread fear. They feel a mixture of pity and disgust for @Compendium[koboldpressogl.koboldpressmonsters.KPyowlers]{yowlers} and destroy the undead whenever the two meet.<br><strong>Lords of the Hunt.</strong> Shadow boxer legends state that larger shadow boxers roam the wild parts of the world. These greater kin are more like the large jungle cats they live alongside than the more common city-based shadow boxers.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": "fey",
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "xp": {
+        "value": 700
+      },
+      "source": "ToB2"
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "",
+      "languages": {
+        "value": [
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Shadow Boxer",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPshadowboxer",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Cat Telepathy",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The shadow boxer can magically communicate with cats within 120 feet of it, using a limited telepathy.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 120,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Pounce",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/beast_01.jpg",
+      "data": {
+        "description": {
+          "value": "<p>If the shadow boxer moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone}. If the target is prone, the shadow boxer can make one bite attack against it as a bonus action.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 13
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Project Silhouette",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>As a bonus action, the shadow boxer projects a shadow on a surface within 60 feet of it. The shadow boxer can shape it to resemble the shadow of any Medium or smaller beast, but the shadow can’t be larger than a 10-foot cube. Each creature that starts its turn within 60 feet of the shadow and that can see the shadow must succeed on a DC 13 Wisdom saving throw or be @Compendium[dnd5e.rules.tUYvSkhggFcMpVw5]{incapacitated} until the end of its next turn and use its movement on its next turn to follow the shadow. As a bonus action, the shadow boxer can move the shadow up to 30 feet along a solid surface. The shadow moves in a natural manner for the type of creature it represents.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 13
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The shadow boxer makes two claw attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/red_29.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Claw",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/red_31.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "name": "Invisibility",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/fog-sky-2.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The shadow boxer magically turns @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible} until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the shadow boxer wears or carries is invisible with it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    }
+  ]
+}

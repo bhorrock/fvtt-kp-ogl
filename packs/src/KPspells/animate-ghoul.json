@@ -1,0 +1,90 @@
+{
+  "_id": "KPanimateghoul",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Animate Ghoul",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 2,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "piece of rotting flesh and an onyx gemstone worth 100 gp",
+      "consumed": false,
+      "cost": 100,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You raise one Medium or Small humanoid corpse as a ghoul under your control. Any class levels or abilities the creature had in life are gone, replaced by the standard ghoul stat block.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a 3rd-level spell slot, it can be used on the corpse of a Large humanoid to create a Large ghoul. When you cast this spell using a spell slot of 4th level or higher, this spell creates a ghast, but the material component changes to an onyx gemstone worth at least 200 gp.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

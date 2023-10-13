@@ -1,0 +1,95 @@
+{
+  "_id": "KPmephiticcroak",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Mephitic Croak",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 2,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a dead toad and a dram of arsenic worth 10 gp",
+      "consumed": false,
+      "cost": 10,
+      "supply": 0
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "cone"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "acid"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>You release an intensely loud burp of acidic gas in a 15-foot cone. Creatures in the area take 2d6 acid damage plus 2d6 thunder damage, or half as much damage with a successful Dexterity saving throw. A creature whose Dexterity saving throw fails must also make a successful Constitution saving throw or be stunned and @Compendium[dnd5e.rules.prcOUhkWEVppFVbg]{poisoned} until the start of your next turn.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, both acid and thunder damage increase by 1d6 for each slot level above 2nd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

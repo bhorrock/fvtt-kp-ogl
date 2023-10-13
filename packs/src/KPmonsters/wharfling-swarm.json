@@ -1,0 +1,630 @@
+{
+  "_id": "KPwharflingswarm",
+  "name": "Wharfling Swarm",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "dex": {
+        "value": 16,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "con": {
+        "value": 8,
+        "min": 3,
+        "proficient": 0,
+        "mod": -1,
+        "save": -1
+      },
+      "int": {
+        "value": 2,
+        "min": 3,
+        "proficient": 0,
+        "mod": -4,
+        "save": -4
+      },
+      "wis": {
+        "value": 12,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "cha": {
+        "value": 7,
+        "min": 3,
+        "proficient": 0,
+        "mod": -2,
+        "save": -2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 14
+      },
+      "hp": {
+        "value": 63,
+        "min": 0,
+        "max": 63,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "14d10-14"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 30,
+        "fly": 0,
+        "swim": 20,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>An undulating mass of flesh and teeth, a wharfling swarm is a horrific sight by moonlight.</em><br><strong>Bloodthisty Mobs.</strong> These masses of hairless bodies writhe along the coast in the moonlight, and often are mistaken for shoggoths or other much larger creatures. Squeals mingle with the screams of unfortunate fishermen caught in its path.<br><strong>Beach Swarms.</strong> Periodically, wharflings congregate in huge numbers and tear along the shoreline for miles before finally returning to their dens. Why they gather this way is unknown, but most locals know to avoid the shore on these nights.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": "beasts",
+      "environment": "",
+      "cr": 4,
+      "spellLevel": 0,
+      "xp": {
+        "value": 1100
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "darkvision 60 ft.",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Wharfling Swarm",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPwharflingswarm",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Swarm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/green_05.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a tiny wharfling. The swarm can’t regain hit points or gain temporary hit points.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Bites",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/red_29.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm’s space. Hit: 21 (6d6) piercing damage, or 10 (3d6) piercing damage if the swarm has half of its hit points or fewer.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "6d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": "3d6"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Locking Bite",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>When a creature leaves a wharfling swarm’s space, 1d3 wharflings remain @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} to them (escape DC 10). Each wharfling inflicts 5 (1d4 + 3) piercing damage at the start of the creature’s turns until it escapes from the grapples.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + 3",
+              "piercing"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Pilfer",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A wharfling swarm makes 1d6 Dexterity (Sleight of Hand) checks each round against every creature in the swarm’s space. The DC for each check equals 10 plus the target creature’s Dexterity modifier. For each successful check, the wharflings steal some small metallic object from the target, and the theft is unnoticed if the same result equals or exceeds the target’s passive Perception.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 14,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

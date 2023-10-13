@@ -1,0 +1,675 @@
+{
+  "_id": "KPelementalist",
+  "name": "Elementalist",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "min": 3,
+        "proficient": 0,
+        "mod": -1,
+        "save": -1
+      },
+      "dex": {
+        "value": 16,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "con": {
+        "value": 15,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "int": {
+        "value": 12,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "wis": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "cha": {
+        "value": 17,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 15
+      },
+      "hp": {
+        "value": 45,
+        "min": 0,
+        "max": 45,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "7d8+14"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>A dragonborn draped in flowing robes cracks its knuckles, causing sparks of elemental magic to spray in all directions.</em><br>Dragons carry the power of the elements in their blood, and some dragonborn also carry this supernatural gift.<br><strong>Arcane Artillerists.</strong> Most dragonborn elementalists are specially trained soldiers, used on the field of battle to protect their infantry and cavalry allies. Elementalists specialize in combat spells that utilize a specific element, wasting no effort on broadening their horizons with utility spells.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "lawful neutral",
+      "race": "dragonborn",
+      "type": "humanoid",
+      "environment": "",
+      "cr": 2,
+      "spellLevel": 0,
+      "xp": {
+        "value": 450
+      },
+      "source": "CC"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "custom"
+        ],
+        "custom": "one of fire, lightning, cold, or poison (see Elemental Focus)"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "",
+      "languages": {
+        "value": [
+          "common",
+          "draconic"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": []
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Elementalist",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPelementalist",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Elemental Focus",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Each dragonborn elementalist permanently aligns with a particular element. This elemental focus grants the dragonborn resistance to a certain damage type and the ability to innately cast some spells. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks).<br>Flame (Fire): The dragonborn has resistance to fire damage. It can cast the @Compendium[dnd5e.spells.eCPQuQkIabFKTl9u]{produce flame} cantrip at will and can cast @Compendium[dnd5e.spells.2yHXEcrRbadZDr5M]{heat metal} or @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{scorching ray} three times per day.<br>Storm (Air): The dragonborn has resistance to lightning damage. It can cast the @Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{shocking grasp} cantrip at will and can cast @Compendium[dnd5e.spells.UDUnlfPsOAbq2RSE]{blur} or @Compendium[dnd5e.spells.FSMy6VAjDnXY9vWz]{gust of wind} three times per day.<br>Tide (Water): The dragonborn has resistance to cold damage. It can cast the @Compendium[dnd5e.spells.ctW81uiX56xZR2c5]{ray of frost} cantrip at will and can cast @Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{sleet storm} or @Compendium[dnd5e.spells.13uVuBQP6VaiSPvC]{water breathing} three times per day.<br>Cave (Earth): The dragonborn has resistance to poison damage. It can cast the blade ward cantrip at will and can cast @Compendium[dnd5e.spells.64uo4fHriHLjRUrX]{meld into stone} or @Compendium[dnd5e.spells.wJKpSvSTbSkTjqyb]{shatter} three times per day.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "War Mage",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>When making an opportunity attack, the dragonborn can cast a spell with a casting time of 1 action instead of making a weapon attack. If this spell requires a ranged attack roll, the dragonborn doesn’t have disadvantage on the attack roll from being within 5 feet of a hostile creature, though it may still have disadvantage from other sources. This spell must only target the creature that provoked the opportunity attack.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The dragonborn makes two scimitar attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Scimitar",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/sword-curved.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Fire Breath",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The dragonborn breathes elemental energy in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) damage of the elementalist’s elemental focus type on a failed save, or half as much damage on a successful one.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 15,
+          "units": "ft",
+          "type": "cone"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 12
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "name": "Studded Leather Armor",
+      "permission": {
+        "default": 0
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 144",
+        "quantity": 1,
+        "weight": 13,
+        "price": 45,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 12,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
+      "sort": 0,
+      "flags": {},
+      "img": "systems/dnd5e/icons/items/armor/studded.png",
+      "effects": []
+    }
+  ]
+}

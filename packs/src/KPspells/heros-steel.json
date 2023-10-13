@@ -1,0 +1,90 @@
+{
+  "_id": "KPherossteel",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Hero's Steel",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 3,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a warrior's amulet worth 5 gp",
+      "consumed": false,
+      "cost": 5,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You infuse the metal of a melee weapon you touch with the fearsome aura of a mighty hero. The weapon's wielder has advantage on Charisma (Intimidation) checks made while aggressively brandishing the weapon. In addition, an opponent that currently has 30 or fewer hit points and is struck by the weapon must make a successful Charisma saving throw or be @Compendium[dnd5e.rules.TiD5vnNql12Wh3Pn]{stunned} for 1 round. If the creature has more than 30 hit points but fewer than the weapon's wielder currently has, it becomes frightened instead; a frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a successful save. A creature that succeeds on the saving throw is immune to castings of this spell on the same weapon for 24 hours.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

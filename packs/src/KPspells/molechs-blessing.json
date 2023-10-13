@@ -1,0 +1,95 @@
+{
+  "_id": "KPmolechsblessing",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Molech's Blessing",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM:Cw",
+    "prepared": false,
+    "level": 7,
+    "school": "trs",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a sentient being and a branding iron with Molech’s symbol",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>clockwork ritual</em><br>You call upon the dark blessings of the furnace god Molech. In an hour-long ritual begun at midnight, you dedicate a living being to Molech by branding the deity's symbol onto the victim's forehead. If the ritual is completed and the victim fails to make a successful Wisdom saving throw (or the victim chooses not to make one), the being is transformed into an avatar of Molech under your control.<br>The avatar is 8 feet tall and appears to be made of black iron wreathed in flames. Its eyes, mouth, and a portion of its torso are cut away to show the churning fire inside that crackles with wailing voices. The avatar has all the statistics and abilities of an @Compendium[dnd5e.monsters.sApYLZj9PTZ40wJr]{earth elemental}, with the following differences:<ul><li>Alignment is Neutral Evil;</li><li>Speed is 50 feet and it cannot burrow or use earth glide;</li><li>it gains the fire form ability of a fire elemental, but it cannot squeeze through small spaces;</li><li>its Slam does an additional 1d10 fire damage.</li><br>This transformation lasts for 24 hours. At the end of that time, the subject returns to its normal state and takes 77 (14d10) fire damage, or half damage with a successful DC 15 Constitution saving throw.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

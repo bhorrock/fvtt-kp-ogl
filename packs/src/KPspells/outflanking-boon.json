@@ -1,0 +1,90 @@
+{
+  "_id": "KPoutflankingboon",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Outflanking Boon",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:B",
+    "prepared": false,
+    "level": 3,
+    "school": "ill",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "enemy"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>This spell targets one enemy, which must make a Wisdom saving throw. On a failed save, an illusory ally of yours appears in a space from which it threatens to make a melee attack against the target. Your allies gain advantage on melee attacks against the target for the duration because of the distracting effect of the illusion. An affected target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the spell targets one additional enemy for each slot level above 3rd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

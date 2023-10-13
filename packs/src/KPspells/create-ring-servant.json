@@ -1,0 +1,90 @@
+{
+  "_id": "KPcreateringservant",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Create Ring Servant",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ri",
+    "prepared": false,
+    "level": 8,
+    "school": "trs",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "two metal rings",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>ring</em><br>You touch two metal rings and infuse them with life, creating a short-lived but sentient construct known as a @Compendium[koboldpressogl.koboldpressmonsters.KPringservant]{ring servant}. The ring servant appears adjacent to you. It reverts form, changing back into the rings used to cast the spell, when it drops to 0 hit points or when the spell ends.<br>The ring servant is friendly to you and your companions for the duration. Roll initiative for the ring servant, which acts on its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the ring servant, it defends itself and you from hostile creatures but otherwise takes no actions.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

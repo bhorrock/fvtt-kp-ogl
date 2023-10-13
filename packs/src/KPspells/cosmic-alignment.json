@@ -1,0 +1,90 @@
+{
+  "_id": "KPcosmicalignment",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Cosmic Alignment",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH,DM:EH",
+    "prepared": false,
+    "level": 9,
+    "school": "con",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a piece of quartz",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 100,
+      "units": "mi",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>illumination</em><br>You arrange the forces of the cosmos to your benefit. Choose a cosmic event from the Comprehension of the Starry Sky ability that affects spellcasting (conjunction, eclipse, or nova; listed after the spell). You cast spells as if under the effect of the cosmic event until the next sunrise or 24 hours have passed. When the ability requires you to expend your insight, you expend your ritual focus instead. This spell must be cast outdoors, and the casting of this spell is obvious to everyone within 100 miles of its casting when an appropriate symbol, such as a flaming comet, appears in the sky above your location while you are casting the spell.<ul><li><strong>Conjunction:</strong> Planetary conjunctions destabilize minds and emotions. You can give one creature you can see disadvantage on a saving throw against one enchantment or illusion spell cast by you.</li><li><strong>Eclipse:</strong> Eclipses plunge the world into darkness and strengthen connections to the shadow plane. When you cast a spell of 5th level or lower that causes necrotic damage, you can reroll a number of damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls.</li><li><strong>Nova:</strong> The nova is a powerful aid to divination spells. You can treat one divination spell you cast as though you had used a spell slot one level higher than the slot actually used.</li>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

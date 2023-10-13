@@ -1,0 +1,880 @@
+{
+  "_id": "KPbloomhydra",
+  "name": "Bloom Hydra",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "dex": {
+        "value": 15,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 5
+      },
+      "con": {
+        "value": 16,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "int": {
+        "value": 4,
+        "min": 3,
+        "proficient": 0,
+        "mod": -3,
+        "save": -3
+      },
+      "wis": {
+        "value": 14,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "cha": {
+        "value": 6,
+        "min": 3,
+        "proficient": 1,
+        "mod": -2,
+        "save": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 15
+      },
+      "hp": {
+        "value": 112,
+        "min": 0,
+        "max": 112,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d8+45"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 30,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>A writhing bundle of vines takes the rough shape of a cat with the head of a lizard. Flower buds peak out of empty eye sockets, and wilted petals sprout along its ever-shifting hide. The bloom hydra hunts deep within the jungles of the world. It prowls in the trees for prey on the jungle floor. When prey is in range, the bloom hydra uses its vines to pull its prey into the tree canopy where it can be consumed.</em><br><strong>Magical Bloom.</strong> Bloom hydras typically have four flowertipped, vine-like appendages, which regrow shortly after being severed. The vines are each capped with one magical flower: azalea, dahlia, daisy, or marigold. When the severed vines regrow, they sometimes sprout the rare hydra lily instead of their usual flower.<br><strong>Hydra Harvest.</strong> Years ago, bloom hydras were common predators in the jungle, but a rumor spread that the hydra lily could grant eternal life. Subsequently, many great expeditions were mounted into the jungle by kings, peasants, and adventurers alike. On the brink of extinction, the hydras now live in the deepest jungles far from civilization.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": "plant",
+      "environment": "",
+      "cr": 6,
+      "spellLevel": 0,
+      "xp": {
+        "value": 2300
+      },
+      "source": "WL55"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "fire",
+          "necrotic"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "darkvision 60 ft.",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Bloom Hydra",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPbloomhydra",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Azalea Nectar",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A creature that hits the hydra with a melee weapon attack while within 5 feet of it takes 3 (1d6) poison damage. This trait functions only if the hydra has at least 1 azalea vine.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "poison"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Daisy Regeneration",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The hydra regains 5 hp at the start of its turn if it has at least 1 hp and at least 1 daisy vine.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Flowered Vines",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The bloom hydra has four vines, and each vine has a single flower at its tip. These flowers are azalea, dahlia, daisy, and marigold. Whenever the hydra takes 15 or more damage in a single turn, one of its vines dies. If all its vines die, the hydra dies. At the end of its turn, it grows two vines for each of its vines that died since its last turn, unless it has taken acid damage since its last turn. Each new vine sprouts a single flower at its tip, chosen at random from the flowers above. When a new vine grows, it has a 25 percent chance of sprouting a hydra lily instead.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The bloom hydra makes as many vine lash attacks as it has flowered vines. If it hits a Medium or smaller target with two vine lash attacks, the target is @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} (escape DC 14), and the hydra can’t grapple another target. The hydra can use its Marigold Beam in place of one vine lash attack.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Vine Lash",
+      "type": "weapon",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Marigold Beam",
+      "type": "weapon",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 7 (2d6) fire damage. The bloom hydra can use this action only if it has at least 1 marigold vine.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "rsak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d6 + @mod",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "name": "Flower of Death",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The bloom hydra releases a cloud of death-infused pollen. Each creature within 15 feet of the bloom hydra must make a DC 14 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save, or half as much damage on a successful one. The bloom hydra can use this action only if it has at least 1 hydra lily vine.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 15,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "6d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "name": "Strength of the Dahlia",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The bloom hydra adds 3 to its AC against one melee attack that would hit it. To do so, the hydra must see the attacker and have at least 1 dahlia vine.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 15,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

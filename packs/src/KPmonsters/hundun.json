@@ -1,0 +1,2176 @@
+{
+  "_id": "KPhundun",
+  "name": "Hundun",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "min": 3,
+        "proficient": 0,
+        "mod": 5,
+        "save": 5
+      },
+      "dex": {
+        "value": 14,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "con": {
+        "value": 16,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 7
+      },
+      "int": {
+        "value": 4,
+        "min": 3,
+        "proficient": 0,
+        "mod": -3,
+        "save": -3
+      },
+      "wis": {
+        "value": 20,
+        "min": 3,
+        "proficient": 1,
+        "mod": 5,
+        "save": 9
+      },
+      "cha": {
+        "value": 18,
+        "min": 3,
+        "proficient": 1,
+        "mod": 4,
+        "save": 8
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 18
+      },
+      "hp": {
+        "value": 153,
+        "min": 0,
+        "max": 153,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "18d10+54"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 40,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>A toothless mouth adorns the headless shoulders of this oversized, four-armed, doughy humanoid. Colors and half-formed phantasmal shapes appear and vanish around it, to the creature’s obvious delight.</em><br><strong>Creative Chaos.</strong> Wise yet child-like creatures of chaos, hunduns are four-armed, headless humanoids that embody spontaneous creation and the confusion that precedes enlightenment. Taking delight in creation of all kinds, they bring change to the staid and stagnant, spin revelation from confusion, and inspire moments of great creation—from works of art to new nations and faiths, and even the formation of planets and planes.<br><strong>Nonsense Speech.</strong> Although not mindless, hunduns rarely seem to act out of conscious thought, yet their actions seem wise and usually benevolent. They communicate only in nonsense words, but have no trouble communicating among themselves or acting in coordination with other hunduns.<br><strong>Flesh of Creation.</strong> Hundun blood is a powerful catalyst, and their spittle a potent drug. Each hundun’s heart is an Egg of Worlds—an artifact that can give birth to new concepts, powers, or even worlds. Obviously, the hundun must die for its heart to be used this way, but this is a sacrifice one might make willingly under the right circumstances.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic good",
+      "race": "",
+      "type": "celestial",
+      "environment": "",
+      "cr": 10,
+      "spellLevel": 0,
+      "xp": {
+        "value": 5900
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "acid",
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "lightning",
+          "thunder",
+          "custom"
+        ],
+        "custom": "bludgeoning, piercing, and slashing from nonmagical weapons"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "blindsight 60 ft.",
+      "languages": {
+        "value": [
+          "custom"
+        ],
+        "custom": "understands Celestial and Primordial, but cannot speak intelligibly"
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "stunned",
+          "unconscious"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "max": 0
+      },
+      "spell2": {
+        "value": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "max": 3
+      },
+      "spell4": {
+        "value": 3,
+        "max": 3
+      },
+      "spell5": {
+        "value": 3,
+        "max": 3
+      },
+      "spell6": {
+        "value": 1,
+        "max": 1
+      },
+      "spell7": {
+        "value": 1,
+        "max": 1
+      },
+      "spell8": {
+        "value": 1,
+        "max": 1
+      },
+      "spell9": {
+        "value": 1,
+        "max": 1
+      }
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Hundun",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPhundun",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Brainless",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Hunduns are immune to any spell or effect that allows an Intelligence, Wisdom, or Charisma saving throw. Trying to contact or read a Hundun’s mind confuses the caster as the spell for 1 round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Dance of Creation",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Hunduns can perform an act of magical creation almost unlimited in scope every 1d8 days. The effect is equivalent to a wish spell, but it must create something.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Enlightening Befuddlement",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>When a hundun’s confusion spell affects a target, it can elect to use the following table rather than the standard one:<table><tr><th>1d100</th><th>Result</th></tr><tr><td>01-10</td><td>Inspired: Advantage on attack rolls, ability checks, and saving throws.</td></tr><tr><td>11-20</td><td>Distracted: Disadvantage on attack rolls, ability checks, and saving throws.</td></tr><tr><td>21-50</td><td>Incoherent: The target does nothing but babble or scribble incoherent notes on a new idea.</td></tr><tr><td>51-75</td><td>Obsessed: Target is recipient of geas to create a quality magical object.</td></tr><tr><td>76-100</td><td>Suggestible: Target receives a suggestion from the hundun.</td></tr>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hundun’s innate spellcasting ability is Wisdom (spell save DC 17). It can cast the following spells, requiring no material components:<br>Constant: @Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{confusion} (always centered on the hundun), @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{detect thoughts}<br>At will: @Compendium[dnd5e.spells.a3XtAO5n2GrqiAh5]{create or destroy water}, @Compendium[dnd5e.spells.CAxSzHWizrafT033]{dancing lights}, @Compendium[dnd5e.spells.kjmjY0zlE6IEiQVL]{mending}, @Compendium[dnd5e.spells.udsLtG0BugXHR2JQ]{prestidigitation}<br>3/day each: @Compendium[dnd5e.spells.P6f1PPKPd9BCb742]{compulsion}, @Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{dimension door}, @Compendium[dnd5e.spells.DGONTFbk5eORs5qv]{black tentacles}, @Compendium[dnd5e.spells.TfRzwEgBHHkCc6Ql]{irresistible dance}<br>1/day each: @Compendium[dnd5e.spells.MCEpGpvovcXagwQS]{awaken}, @Compendium[dnd5e.spells.lnaGnxMzpYnbw1uU]{creation}, @Compendium[dnd5e.spells.mgFqi0ev8f7Ut19y]{heroes’ feast}, @Compendium[dnd5e.spells.pn4SnsFDvYDiE6rC]{magnificent mansion}, @Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{plant growth}, @Compendium[dnd5e.spells.zMEo5DKK8uxsuWnq]{reincarnate}, @Compendium[dnd5e.spells.QvGcdRUSNRKEQJlK]{stone shape}",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Magic Weapons",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_04.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hundun’s weapon attacks are magical.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hundun makes four slam attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "name": "Slam",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/blood_11.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d6 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-magenta-3.jpg",
+      "name": "Confusion",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 90,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "three nut shells",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.<br>An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.<table><tr><th>d10</th><th>Behavior</th></tr><tr><td>1</td><td>The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn.</td></tr><tr><td>2-6</td><td>The creature doesn’t move or take actions this turn.</td></tr><tr><td>7-8</td><td>The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.</td></tr><tr><td>9-10</td><td>The creature can act and move normally.</td></tr></table><br>At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.</table><br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/light-eerie-2.jpg",
+      "name": "Detect Thoughts",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "div",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a copper piece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.<br>You initially learn the surface thoughts of the creature-what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.<br>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.<br>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.<br>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000010",
+      "flags": {},
+      "type": "spell",
+      "img": "icons/mystery-man.png",
+      "name": "Create Or Destroy Water",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a drop of water if creating water or a few grains of sand if destroying it",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You either create or destroy water.<br><em><strong>Create Water.</strong></em> You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.<br><em><strong>Destroy Water.</strong></em> You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000011",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fire-arrows-sky-2.jpg",
+      "name": "Dancing Lights",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.<br>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000012",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-blue-1.jpg",
+      "name": "Mending",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "trs",
+        "activation": {
+          "type": "minute",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "two lodestones",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.<br>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000013",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-royal-1.jpg",
+      "name": "Prestidigitation",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 10,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:<ul><li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end ofyour next turn.</li><br>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000014",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-magenta-3.jpg",
+      "name": "Compulsion",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed}. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving to try to end the effect.<br>A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000015",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/air-burst-magenta-3.jpg",
+      "name": "Dimension Door",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 500,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as &quot;200 feet straight downward” or &quot;upward to the northwest at a 45-degree angle, 300 feet.”<br>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.<br>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take 4d6 force damage, and the spell fails to teleport you.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000016",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/vines-eerie-2.jpg",
+      "name": "Black Tentacles",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 90,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a piece of tentacle from a giant octopus or a giant squid",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "square"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "dex",
+          "dc": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.<br>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained} by the tentacles until the spell ends. A creature that starts its turn in the area and is already  restrained by the tentacles takes 3d6 bludgeoning damage.<br>A creature restrained by the tentacles can use its action to make 3 Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000017",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/link-blue-2.jpg",
+      "name": "Irresistible Dance",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 6,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Choose one creature that you can see within range. The target begins a comic dance in place: shufﬂing, tapping its feet, and capering for the duration. Creatures that can't be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} are immune to this spell.<br>A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000018",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/leaf-royal-3.jpg",
+      "name": "Awaken",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 5,
+        "school": "trs",
+        "activation": {
+          "type": "hour",
+          "cost": "8",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "an agate worth at least 1,000 gp, which the spell consumes",
+          "consumed": false,
+          "cost": 1000,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, Vines, creepers, and so forth, and it gains senses similar to a human's. Your GM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.<br>The awakened beast or plant is @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000019",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/vines-eerie-3.jpg",
+      "name": "Creation",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 5,
+        "school": "ill",
+        "activation": {
+          "type": "minute",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Special"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a tiny piece of matter of the same type of the item you plan to create",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 5,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.<br>The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.<table><tr><th>Material</th><th>Duration</th></tr><tr><td>Vegetable matter</td><td>1 day</td></tr><tr><td>Stone or crystal</td><td>12 hours</td></tr><tr><td>Precious metals</td><td>1 hour</td></tr><tr><td>Gems</td><td>10 minutes</td></tr><tr><td>Adamantine or mithral</td><td>1 minute</td></tr></table><br>Using any material created by this spell as another spell's material component causes that spell to fail.</table><br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000020",
+      "flags": {},
+      "type": "spell",
+      "img": "icons/mystery-man.png",
+      "name": "Heroes' Feast",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 6,
+        "school": "con",
+        "activation": {
+          "type": "minute",
+          "cost": "10",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes",
+          "consumed": false,
+          "cost": 1000,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve other creatures can partake of the feast.<br>A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being @Compendium[dnd5e.rules.pAcHCDJBhybiVzMF]{frightened}, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000021",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/runes-royal-3.jpg",
+      "name": "Magnificent Mansion",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 7,
+        "school": "con",
+        "activation": {
+          "type": "minute",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 300,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 24,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp",
+          "consumed": false,
+          "cost": 5,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible}.<br>Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.<br>You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the Visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000022",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/leaf-acid-2.jpg",
+      "name": "Plant Growth",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": "or 8 hours"
+        },
+        "range": {
+          "value": 150,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.<br>If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.<br>You can exclude one or more areas of any size within the spell's area from being affected.<br>If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000023",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/heal-sky-3.jpg",
+      "name": "Reincarnate",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 5,
+        "school": "trs",
+        "activation": {
+          "type": "hour",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "rare oils and unguents worth at least 1,000 gp, which the spell consumes",
+          "consumed": false,
+          "cost": 1000,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.<br>The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The GM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the GM chooses a form.<table><tr><th>d100</th><th>Race</th></tr><tr><td>01-04</td><td>Dragonborn</td></tr><tr><td>05-13</td><td>Dwarf, hill</td></tr><tr><td>14-21</td><td>Dwarf, mountain</td></tr><tr><td>22-25</td><td>Elf, dark</td></tr><tr><td>26-34</td><td>Elf, high</td></tr><tr><td>35-42</td><td>Elf, wood</td></tr><tr><td>43-46</td><td>Gnome, forest</td></tr><tr><td>47-52</td><td>Gnome, rock</td></tr><tr><td>53-56</td><td>Half-elf</td></tr><tr><td>57-60</td><td>Half-orc</td></tr><tr><td>61-68</td><td>Halfling, lightfoot</td></tr><tr><td>69-76</td><td>Halfling, stout</td></tr><tr><td>77-96</td><td>Human</td></tr><tr><td>97-00</td><td>Tiefling</td></tr></table><br>The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000024",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/rock-sky-3.jpg",
+      "name": "Stone Shape",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "soft clay, which must be worked into roughly the desired shape of the stone object",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000025",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 18,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

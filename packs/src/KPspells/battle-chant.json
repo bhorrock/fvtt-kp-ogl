@@ -1,0 +1,90 @@
+{
+  "_id": "KPbattlechant",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Battle Chant",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": ",W12",
+    "prepared": false,
+    "level": 2,
+    "school": "enc",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 5,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a swinging censer of incense",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You bless up all allied creatures of your choice within range. Whenever a target lands a successful hit before the spell ends, the target can add 1 to the damage roll.<br>When cast by multiple casters chanting in unison, the same increases to 2 points added to the damage roll.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, you can extend the range by 10 feet for each slot level above 2nd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

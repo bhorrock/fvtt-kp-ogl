@@ -1,0 +1,1305 @@
+{
+  "_id": "KPfardorocha",
+  "name": "Far Dorocha",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "dex": {
+        "value": 18,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "con": {
+        "value": 13,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "int": {
+        "value": 14,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "wis": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "cha": {
+        "value": 18,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 14
+      },
+      "hp": {
+        "value": 82,
+        "min": 0,
+        "max": 82,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d8+15"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>The fey lady’s attendant stands by, waiting on her from the shadows. The lady voices her desire, and the attendant leaps into action, calling a phantasmal charger made of midnight and shadow.</em><br><strong>Fey Stewards.</strong> The far dorocha manage the servants of the fey courts and, when tasked, carry out the more sinister biddings of their masters. Fey lords and ladies prize the far dorocha for their attention to detail and composed mien.<br><strong>Abductor of Mortals.</strong> Sometimes called the “dark man” or “fear dorcha,” these malicious fey are described in grim folk tales. Parents scare their children into obedience by telling bedtime stories of villains who ride black horses in the night and steal the ill-behaved away to lands of perpetual darkness. Woe betide the children who wake up to find they are the ones alone.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "lawful evil",
+      "race": "",
+      "type": "fey",
+      "environment": "",
+      "cr": 5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 1800
+      },
+      "source": "ToB2"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "custom"
+        ],
+        "custom": "bludgeoning, piercing, and slashing from nonmagical attacks"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "darkvision 60 ft.",
+      "languages": {
+        "value": [
+          "common",
+          "elvish",
+          "sylvan",
+          "custom"
+        ],
+        "custom": "Umbral"
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 3,
+        "max": 3
+      },
+      "spell2": {
+        "value": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 1,
+        "max": 1
+      },
+      "spell4": {
+        "value": 1,
+        "max": 1
+      },
+      "spell5": {
+        "value": 0,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Far Dorocha",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPfardorocha",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Shadow Traveler",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>As a bonus action while in shadows, dim light, or darkness, the far dorocha disappears into the darkness and reappears in an unoccupied space it can see within 30 feet. A tendril of inky smoke appears at the origin and destination when it uses this trait.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "per": "day",
+          "value": 3,
+          "max": 3
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Traveler in Darkness",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The far dorocha has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Under the Cloak of Night",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>While in dim light or darkness, the far dorocha’s AC includes its Charisma modifier, and it has advantage on saving throws.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The far dorocha’s innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components.<br>At will: @Compendium[dnd5e.spells.A3q2gTNqG6fvNGrv]{disguise self}, @Compendium[dnd5e.spells.MUO1uYN7JR1hm4dR]{thaumaturgy}<br>3/day each: @Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{command}, @Compendium[dnd5e.spells.wpx42mtoZ5BmXRs1]{phantom steed}<br>1/day each: @Compendium[dnd5e.spells.P6f1PPKPd9BCb742]{compulsion}, @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{darkness}",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The far dorocha makes two dirk attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Dirk",
+      "type": "weapon",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 15 Constitution saving throw or be @Compendium[dnd5e.rules.prcOUhkWEVppFVbg]{poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ],
+            [
+              "4d6",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "con": "",
+          "dc": 15
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "name": "Dark Invitation",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>One humanoid within 30 feet of the far dorocha and that can hear it must succeed on a DC 15 Charisma saving throw or be magically @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} for 1 day. The charmed target believes it has been invited to meet with the far dorocha’s master and accompanies the far dorocha. Although the target isn’t under the far dorocha’s control, it takes the far dorocha’s requests or actions in the most favorable way it can. Each time the far dorocha or its companions do anything harmful to the target, the target can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect ends if the far dorocha is destroyed, is on a different plane of existence than the target, or uses its bonus action to end the effect. If the target successfully saves against the effect, or if the effect ends for it, the target is immune to the far dorocha’s Dark Invitation for the next 24 hours.<br>The far dorocha can have only one target charmed at a time. If it charms another, the effect on the previous target ends.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": 15
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-grasp-eerie-2.jpg",
+      "name": "Disguise Self",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "ill",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You make yourself-including your clothing, armor, weapons, and other belongings on your person-look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.<br>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.<br>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-royal-1.jpg",
+      "name": "Thaumaturgy",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:<ul><li>Your voice booms up to three times as loud as normal for 1 minute.</li><li>You cause flames to flicker, brighten, dim, or change color for 1 minute.</li><li>You cause harmless tremors in the ground for 1 minute.</li><li>You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</li><li>You instantaneously cause an unlocked door or window to fly open or slam shut.</li><li>You alter the appearance of your eyes for 1 minute.</li><br>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000010",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-magenta-1.jpg",
+      "name": "Command",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.<br>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.<br><em><strong>Approach.</strong></em> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.<br><em><strong>Drop.</strong></em> The target drops whatever it is holding and then ends its turn.<br><em><strong>Flee.</strong></em> The target spends its turn moving away from you by the fastest available means.<br><em><strong>Grovel.</strong></em> The target falls @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone} and then ends its turn.<br><em><strong>Halt.</strong></em> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000011",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wild-jade-2.jpg",
+      "name": "Phantom Steed",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "ill",
+        "activation": {
+          "type": "minute",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.<br>For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends ifyou use an action to dismiss it or if the steed takes any damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000012",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-magenta-3.jpg",
+      "name": "Compulsion",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed}. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving to try to end the effect.<br>A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000013",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/evil-eye-red-2.jpg",
+      "name": "Darkness",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "bat fur and a drop of pitch or piece of coal",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 15,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.<br>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source ofthe darkness with an opaque object, such as a bowl or a helm, blocks the darkness.<br>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000014",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 14,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

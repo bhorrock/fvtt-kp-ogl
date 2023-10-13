@@ -1,0 +1,90 @@
+{
+  "_id": "KPstarryvision",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Starry Vision",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:I",
+    "prepared": false,
+    "level": 7,
+    "school": "div",
+    "activation": {
+      "type": "reaction",
+      "cost": "1",
+      "condition": "which you take when an enemy starts its turn"
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a sprinkle of gold dust worth 400 gp",
+      "consumed": false,
+      "cost": 400,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>This spell acts as <em>@Compendium[koboldpressogl.koboldpressspells.KPcompellingfate]{compelling fate}</em>, except as noted above (<em>starry</em> vision can be cast as a reaction, has twice the range of <em>@Compendium[koboldpressogl.koboldpressspells.KPcompellingfate]{compelling fate}</em>, and lasts up to 1 minute). At the end of each of its turns, the target repeats the Charisma saving throw, ending the effect on a success.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 8th level or higher, the bonus to AC increases by 1 for each slot level above 7th.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

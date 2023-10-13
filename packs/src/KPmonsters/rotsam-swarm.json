@@ -1,0 +1,542 @@
+{
+  "_id": "KProtsamswarm",
+  "name": "Rotsam Swarm",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "dex": {
+        "value": 8,
+        "min": 3,
+        "proficient": 0,
+        "mod": -1,
+        "save": -1
+      },
+      "con": {
+        "value": 18,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "int": {
+        "value": 1,
+        "min": 3,
+        "proficient": 0,
+        "mod": -5,
+        "save": -5
+      },
+      "wis": {
+        "value": 9,
+        "min": 3,
+        "proficient": 0,
+        "mod": -1,
+        "save": -1
+      },
+      "cha": {
+        "value": 6,
+        "min": 3,
+        "proficient": 0,
+        "mod": -2,
+        "save": -2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 9
+      },
+      "hp": {
+        "value": 142,
+        "min": 0,
+        "max": 142,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d10+60"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 30,
+        "walk": 10,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>A quivering glob wraps around a corpse’s arm. Though the corpse is already decaying, the glob seems to accelerate the rot.</em><br><strong>Expediter of Decay.</strong> The rotsam feeds on rotting flesh, encouraging decay in already rotten corpses and initiating decay in previously preserved corpses. Unfortunately, the rotsam can affect living tissue just as well and makes no distinction between the two.<br><strong>Leechlike Underwater Dwellers.</strong> Rotsams attach to their prey like leeches, but they are considerably more difficult to remove than ordinary leeches.<br><strong>Favored of Rot Cults.</strong> Cultists devoted to deities of disease, death, and decay “raise” rotsams for use in their sacrificial rituals.<br><strong>Ooze Nature.</strong> A rotsam doesn’t require sleep.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": "oozes",
+      "environment": "",
+      "cr": 6,
+      "spellLevel": 0,
+      "xp": {
+        "value": 2300
+      },
+      "source": "ToB2"
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "necrotic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Rotsam Swarm",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KProtsamswarm",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Bog Rot",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A creature that fails its saving throw against the rotsam’s diseased bite attack becomes infected with the bog rot disease. Until the disease is cured, the infected creature’s skin breaks out in a rot-like rash that slowly spreads across its body, and its hp maximum decreases by 7 (2d6) for every 24 hours that elapse. After the first 24 hours, the creature’s skin starts to smell like rot, and creatures have advantage on Wisdom (Perception) and Wisdom (Survival) checks to find the infected creature. The reduction and rot smell last until the disease is cured. The creature dies if the disease reduces its hp maximum to 0.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Spider Climb",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/green_23.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The rotsam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Swarm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/green_05.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rotsam. The swarm can’t regain hp or gain temporary hp.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Diseased Bites",
+      "type": "weapon",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the swarm’s space. Hit: 10 (4d4) piercing damage plus 21 (6d6) necrotic damage, or 5 (2d4) piercing damage and 10 (3d6) necrotic damage if the swarm has half of its hp or fewer. The target must make a DC 15 Constitution saving throw or contract a disease (see the Bog Rot trait).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "4d4 + @mod",
+              "piercing"
+            ],
+            [
+              "6d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "con": "",
+          "dc": 15
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    }
+  ]
+}

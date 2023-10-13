@@ -1,0 +1,90 @@
+{
+  "_id": "KPbindingoath",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Binding Oath",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 4,
+    "school": "nec",
+    "activation": {
+      "type": "minute",
+      "cost": "10",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Until dispelled"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 2,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You seal an agreement between two or more willing creatures with an oath in the name of the god of justice, using ceremonial blessings during which both the oath and the consequences of breaking it are set: if any of the sworn break this vow, they are struck by a curse. For each individual that does so, you choose one of the options given in the <em>@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{bestow curse}</em> spell. When the oath is broken, all participants are immediately aware that this has occurred, but they know no other details.<br>The curse effect of binding oath can't be dismissed by <em>@Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{dispel magic}</em>, but it can be removed with <em>@Compendium[dnd5e.spells.TkJ8Wtg1L7TZtspm]{dispel evil and good}, @Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{remove curse}</em>, or <em>@Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{wish}</em>. Remove curse functions only if the spell slot used to cast it is equal to or higher than the spell slot used to cast <em>binding oath</em>. Depending on the nature of the oath, one creature's breaking it may or may not invalidate the oath for the other targets. If the oath is completely broken, the spell ends for every affected creature, but curse effects already bestowed remain until dispelled.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

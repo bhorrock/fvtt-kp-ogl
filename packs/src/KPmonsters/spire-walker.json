@@ -1,0 +1,1129 @@
+{
+  "_id": "KPspirewalker",
+  "name": "Spire Walker",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 3,
+        "min": 3,
+        "proficient": 0,
+        "mod": -4,
+        "save": -4
+      },
+      "dex": {
+        "value": 18,
+        "min": 3,
+        "proficient": 1,
+        "mod": 4,
+        "save": 7
+      },
+      "con": {
+        "value": 14,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "int": {
+        "value": 11,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "wis": {
+        "value": 10,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "cha": {
+        "value": 14,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16
+      },
+      "hp": {
+        "value": 38,
+        "min": 0,
+        "max": 38,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "11d4+22"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>This miniscule creature kicks up a ghostly, sparkling fire when it jostles and jigs. Lightning sparks fly between it and its perch.</em><br><strong>Storm Dancers.</strong> When storm clouds gather over cities, harbors, and twisted badlands, electrical energy fills the air. During these times, miniscule fey dance on church steeples, desolate peaks, and ships’ masts.<br>Also called corposanti by scholars, spire walkers are nature spirits that delight in grandiose displays of thunderbolts. They can be found frolicking in a thunderstorm or keeping company with blue dragons or storm giants—though these larger creatures often chase them off for being a nuisance.<br><strong>Small and Metallic.</strong> These spire walkers stand no more than a foot tall, with dusky blue-gray skin and shocks of silvery, slate, or pale blue hair. Spire walkers prefer clothing in metallic hues with many buttons, and they always carry a handful of tiny copper darts that they hurl at each other during their incomprehensible games. When excited, they emit a sparking glow from the tips of their noses, eyebrows, ears, and pointy shoes.<br>They play rough-and-tumble games among themselves and enjoy pranking bystanders with frightening but mostly harmless electric shocks. If a spire walker perishes during the fun, the others pause just long enough to say “awww, we’ll miss you” and go through their comrade’s pockets before continuing with the game.<br><strong>Love Copper and Amber.</strong> Spire walkers like gold but they love copper. They prefer it over all other metals, and they keep the copper pieces in their pockets brilliantly polished. They also value amber gems. Among a group of spire walkers, the leader is not the cleverest or most ruthless, but the one displaying the most ostentatious amber jewel.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": "fey",
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "xp": {
+        "value": 700
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [
+          "lightning",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "custom"
+        ],
+        "custom": "piercing from nonmagical weapons"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "",
+      "languages": {
+        "value": [
+          "common",
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": []
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 3,
+        "max": 3
+      },
+      "spell2": {
+        "value": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "max": 3
+      },
+      "spell4": {
+        "value": 1,
+        "max": 1
+      },
+      "spell5": {
+        "value": 1,
+        "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Spire Walker",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPspirewalker",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Energized Body",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A creature that hits the spire walker with a melee attack using a metal weapon takes 5 (1d10) lightning damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "lightning"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The spire walker’s innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The spire walker can innately cast the following spells, requiring no material components:<br>At will: produce spark (as the cantrip @Compendium[dnd5e.spells.eCPQuQkIabFKTl9u]{produce flame}, but it does lightning damage)<br>3/day each: @Compendium[dnd5e.spells.CAxSzHWizrafT033]{dancing lights}, @Compendium[dnd5e.spells.pub0OWVEB71XQx1n]{feather fall}, @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{invisibility}<br>1/day each: @Compendium[dnd5e.spells.nqBDWkVOfcGZt4YU]{faerie fire}, @Compendium[dnd5e.spells.WTbOQBsarsL1LuXJ]{thunderwave}",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Steeple Step",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The spire walker can use 10 feet of its movement to step magically from its position to the point of a steeple, mast, or other spire-like feature that is in view within 30 feet. The spire walker has advantage on Dexterity (Acrobatics) checks and Dexterity saving throws while it is standing on a steeple or any similar narrow, steep structure or feature.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Lightning Dart",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1 piercing damage plus 9 (2d8) lightning damage. If the attack misses, the target still takes 4 (1d8) lightning damage. Whether the attack hits or misses its intended target, every other creature within 10 feet of the target takes 9 (2d8) lightning damage, or half damage with a successful DC 14 Dexterity saving throw.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "lightning"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 14
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-2.jpg",
+      "name": "Produce Flame",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "rsak",
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-­foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.<br>You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.<br>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fire-arrows-sky-2.jpg",
+      "name": "Dancing Lights",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.<br>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-magenta-2.jpg",
+      "name": "Feather Fall",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "trs",
+        "activation": {
+          "type": "reaction",
+          "cost": "1",
+          "condition": "which you take when you or a creature within 60 feet ofyou falls"
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a small feather or piece of down",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fog-sky-2.jpg",
+      "name": "Invisibility",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "ill",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "an eyelash encased in gum arabic",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>A creature you touch becomes @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible} until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fire-arrows-jade-2.jpg",
+      "name": "Faerie Fire",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "dex",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Each object in a 20-foot cube within range is outlined in blue, green, or Violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.<br>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible}.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000010",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/lightning-jade-1.jpg",
+      "name": "Thunderwave",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 15,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "con",
+          "dc": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.<br>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000011",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 16,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

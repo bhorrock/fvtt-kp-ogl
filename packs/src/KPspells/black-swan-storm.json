@@ -1,0 +1,95 @@
+{
+  "_id": "KPblackswanstorm",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Black Swan Storm",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:EH",
+    "prepared": false,
+    "level": 2,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a feather from a black swan",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You call forth a whirlwind of black feathers that fills a 5-foot cube within range. The feathers deal 2d8 force damage to creatures in the cube's area and radiate darkness, causing the illumination level within 20 feet of the cube to drop by one step (from bright light to dim light, and from dim light to darkness). Creatures that make a successful Dexterity saving throw take half the damage and are still affected by the change in light.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the feathers deal an extra 1d8 force damage for each slot level above 2nd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

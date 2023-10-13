@@ -1,0 +1,90 @@
+{
+  "_id": "KPseebeyond",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "See Beyond",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM",
+    "prepared": false,
+    "level": 5,
+    "school": "div",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a transparent crystal",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>This spell enables a willing creature you touch to see through any obstructions as if they were transparent. For the duration, the target can see into and through opaque objects, creatures, spells, and effects that obstruct line of sight to a range of 30 feet. Inside that distance, the creature can choose what it perceives as opaque and what it perceives as transparent as freely and as naturally as it can shift its focus from nearby to distant objects.<br>Although the creature can see any target within 30 feet of itself, all other requirements must still be satisfied before casting a spell or making an attack against that target. For example, the creature can see an enemy that has total cover but can't shoot that enemy with an arrow because the cover physically prevents it. That enemy could be targeted by a <em>@Compendium[dnd5e.spells.JQyigMNPiDnGI18b]{geas}</em> spell, however, because <em>@Compendium[dnd5e.spells.JQyigMNPiDnGI18b]{geas}</em> needs only a visible target.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

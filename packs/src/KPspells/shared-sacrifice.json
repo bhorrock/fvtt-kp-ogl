@@ -1,0 +1,90 @@
+{
+  "_id": "KPsharedsacrifice",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Shared Sacrifice",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:B",
+    "prepared": false,
+    "level": 2,
+    "school": "evo",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You and up to five of your allies within range contribute part of your life force to create a pool that can be used for healing. Each target takes 5 necrotic damage (which can't be reduced but can be healed normally), and those donated hit points are channeled into a reservoir of life essence. As an action, any creature who contributed to the pool of hit points can heal another creature by touching it and drawing hit points from the pool into the injured creature. The injured creature heals a number of hit points equal to your spellcasting ability modifier, and the hit points in the pool decrease by the same amount. This process can be repeated until the pool is exhausted or the spell's duration expires.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

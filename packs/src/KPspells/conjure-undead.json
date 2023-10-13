@@ -1,0 +1,90 @@
+{
+  "_id": "KPconjureundead",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Conjure Undead",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a humanoid skull",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You summon a @Compendium[dnd5e.monsters.QGcQYZbVl4bWzi4E]{shadow} to do your bidding. The creature appears in an unoccupied space that you can see within range. The creature is friendly to you and your allies for the duration. Roll initiative for the shadow, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the creature, it defends itself from hostile creatures but otherwise takes no actions. The shadow disappears when the spell ends.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a 4th-level spell slot, you can choose to summon a @Compendium[dnd5e.monsters.rbyp54px2D0ql4QK]{wight} or a @Compendium[dnd5e.monsters.QGcQYZbVl4bWzi4E]{shadow}. When you cast this spell with a spell slot of 5th level or higher, you can choose to summon a @Compendium[dnd5e.monsters.qoFEjfrANBdrCP6m]{ghost}, a @Compendium[dnd5e.monsters.QGcQYZbVl4bWzi4E]{shadow}, or a @Compendium[dnd5e.monsters.rbyp54px2D0ql4QK]{wight}.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

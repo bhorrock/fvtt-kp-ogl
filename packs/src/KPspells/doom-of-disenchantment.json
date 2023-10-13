@@ -1,0 +1,90 @@
+{
+  "_id": "KPdoomofdisenchantment",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Doom of Disenchantment",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 3,
+    "school": "abj",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 5,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>When you cast <em>doom of disenchantment</em>, your armor and shield glow with light. When a creature hits you with an attack, the spell counters any magic that provides the attack with a bonus to hit or to damage. For example, a <em>+1 weapon</em> would still be considered magical, but it gets neither +1 to hit nor +1 to damage on any attack against you.<br>The spell also suppresses other magical properties of the attack. A <em>sword of wounding</em>, for example, can't cause ongoing wounds on you, and you recover hit points lost to the weapon's damage normally. If the attack was a spell, it's affected as if you had cast <em>@Compendium[dnd5e.spells.Ek45cBpVXvJdv1Qy]{counterspell}</em>, using Charisma as your spellcasting ability. Spells with a duration of instantaneous, however, are unaffected.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

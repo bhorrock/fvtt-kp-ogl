@@ -1,0 +1,90 @@
+{
+  "_id": "KPnegativeimage",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Negative Image",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:S",
+    "prepared": false,
+    "level": 2,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a piece of reflective obsidian",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>shadow</em><br>You create a shadow-tunnel between your location and one other creature you can see within range. You and that creature instantly swap positions. If the target creature is unwilling to exchange places with you, it can resist the effect by making a Charisma saving throw. On a successful save, the spell has no effect.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

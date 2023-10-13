@@ -1,0 +1,90 @@
+{
+  "_id": "KPenergyabsorption",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Energy Absorption",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:LL,MM:LL",
+    "prepared": false,
+    "level": 5,
+    "school": "abj",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "msak",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>A creature you touch has resistance to acid, cold, fire, force, lightning, and thunder damage until the spell ends.<br>If the spell is used against an unwilling creature, you must make a melee spell attack with a reach of 5 feet. If the attack hits, for the duration of the spell the affected creature must make a saving throw using its spellcasting ability whenever it casts a spell that deals one of the given damage types. On a failed save, the spell is not cast but its slot is expended; on a successful save, the spell is cast but its damage is halved before applying the effects of saving throws, resistance, and other factors.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

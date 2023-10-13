@@ -1,0 +1,1956 @@
+{
+  "_id": "KPredhag",
+  "name": "Red Hag",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "dex": {
+        "value": 16,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "con": {
+        "value": 18,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "int": {
+        "value": 18,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "wis": {
+        "value": 22,
+        "min": 3,
+        "proficient": 0,
+        "mod": 6,
+        "save": 6
+      },
+      "cha": {
+        "value": 15,
+        "min": 3,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 15
+      },
+      "hp": {
+        "value": 119,
+        "min": 0,
+        "max": 119,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "14d8+56"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 30,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>An elder race—much older than the elves, and as old as the dragons, they claim—red hags are the most cunning and longest-lived of the hags, having a lifespan of more than a thousand years.</em><br><strong>Beautiful and Strong.</strong> Unlike their hag kin, red hags are not horrid to look upon, and most are considered comely in their own right. Few know anything about them, and the hags do little to enlighten them, preferring their seclusion.<br><strong>Tied to Nature.</strong> The hags have a deep connection with all elements of nature, and they often make their homes in deep forests, in caves, or alongside coastlines.<br><strong>Blood Magic.</strong> Because of their close connection to nature, red hags often serve as druids. Within their druidic circles, however, they practice blood sacrifices and perform ritualistic blood magic—both to slake their craving for humanoid blood, but also as a means to venerate Hecate, goddesses of dark magic. Red hags also favor the cleric and wizard classes; few ever seek a martial path. The ancient hags all answer to a hierarchy.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": "",
+      "type": "fey",
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 8,
+      "xp": {
+        "value": 2900
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "blood sense 90 ft., darkvision 60 ft.",
+      "languages": {
+        "value": [
+          "common",
+          "druidic",
+          "giant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "poisoned"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "max": 4
+      },
+      "spell2": {
+        "value": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "max": 3
+      },
+      "spell4": {
+        "value": 2,
+        "max": 2
+      },
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Red Hag",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPredhag",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "flags": {},
+      "name": "Amphibious",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hag can breathe air and water.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000002",
+      "flags": {},
+      "name": "Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hag is an 8th-level spellcaster. Her spellcasting ability is Wisdom (Spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The hag has the following druid spells prepared:<br>Cantrips (at will): @Compendium[dnd5e.spells.hDOENzjuj5WpLq7B]{animal friendship} (red hags treat this as a cantrip), @Compendium[dnd5e.spells.g2u9PYfqWQAyg9OI]{poison spray}, thorn whip<br>1st level (4 slots): @Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{cure wounds}, @Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{entangle}, @Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{speak with animals}<br>2nd level (3 slots): @Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{barkskin}, @Compendium[dnd5e.spells.Advtckpz1B733bu9]{flame blade}, @Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{lesser restoration}<br>3rd level (3 slots): @Compendium[dnd5e.spells.ehvmg9U9fcMEhE4z]{call lightning}, @Compendium[dnd5e.spells.1Drt0SHxbEAHxprN]{conjure animals}, @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{dispel magic}, @Compendium[dnd5e.spells.64uo4fHriHLjRUrX]{meld into stone}<br>4th level (2 slots): @Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{control water}, @Compendium[dnd5e.spells.LrPvWHBPmiMQQsKB]{dominate beast}, @Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{freedom of movement}, @Compendium[dnd5e.spells.sTIkQK7KuQNOyY0C]{hallucinatory terrain}",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000003",
+      "flags": {},
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blue_18.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The hag has advantage on saving throws against spells and other magical effects.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000004",
+      "flags": {},
+      "name": "Blood Sense",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>A red hag automatically senses the presence of the blood of living creatures within 90 feet and can pinpoint their locations within 30 feet.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 90,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000005",
+      "flags": {},
+      "name": "Claws",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/red_31.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d8 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000006",
+      "flags": {},
+      "name": "Siphoning Aura",
+      "type": "feat",
+      "img": "icons/mystery-man.png",
+      "data": {
+        "description": {
+          "value": "<p>The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature’s mouth, nose, eyes, ears, and pores. Every creature of the hag’s choosing that starts its turn in the affected area takes 18 (4d6 + 4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "4d6 + 4",
+              "necrotic"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 15
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000007",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wild-jade-2.jpg",
+      "name": "Animal Friendship",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 24,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a morsel of food",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's<br>Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} by you for the spell's duration. If you or one of your companions harms the target, the spells ends.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000008",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fireball-acid-2.jpg",
+      "name": "Poison Spray",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 0,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 10,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "con",
+          "dc": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d12",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.<br>This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000009",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/heal-jade-1.jpg",
+      "name": "Cure Wounds",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "evo",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "heal",
+        "damage": {
+          "parts": [
+            [
+              "a number of",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000010",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/vines-acid-2.jpg",
+      "name": "Entangle",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 90,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "square"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "str",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Grasping weeds and Vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain.<br>A creature in the area when you cast the spell must succeed on 3 Strength saving throw or be @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained} by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make 3 Strength check against your spell save DC. On a success, it frees itself.<br>When the spell ends, the conjured plants wilt away.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000011",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wild-jade-1.jpg",
+      "name": "Speak with Animals",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 1,
+        "school": "div",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000012",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/protect-orange-2.jpg",
+      "name": "Barkskin",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a handful of oak bark",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000013",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/enchant-orange-2.jpg",
+      "name": "Flame Blade",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "evo",
+        "activation": {
+          "type": "bonus",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "self"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "leaf of sumac",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "msak",
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.<br>You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.<br>The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000014",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/heal-sky-1.jpg",
+      "name": "Lesser Restoration",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 2,
+        "school": "abj",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You touch a creature and can end either one disease or one condition afflicting it. The condition can be @Compendium[dnd5e.rules.995mfaI3z7WtY7vK]{blinded}, deafened, paralyzed, or poisoned.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000015",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/lighting-sky-2.jpg",
+      "name": "Call Lightning",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 60,
+          "units": "ft",
+          "type": "radius"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "dex",
+          "dc": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d10",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can't see a point in the air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).<br>When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.<br>If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000016",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wild-orange-3.jpg",
+      "name": "Conjure Animals",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "con",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:<ul><li>One beast of challenge rating 2 or lower</li><li>Two beasts of challenge rating 1 or lower</li><li>Four beasts of challenge rating 1/2 or lower</li><li>Eight beasts of challenge rating 1/4 or lower</li><br>Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.<br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend  themselves from hostile creatures, but otherwise take no actions.<br>The GM has the creatures' statistics.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000017",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/slice-orange-2.jpg",
+      "name": "Dispel Magic",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "abj",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
+        "duration": {
+          "value": null,
+          "units": "Instantaneous"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000018",
+      "flags": {},
+      "type": "spell",
+      "img": "icons/mystery-man.png",
+      "name": "Meld Into Stone",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 3,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [
+            [
+              "6d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains Visible or otherwise detectable by nonmagical senses.<br>While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.<br>Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone} in an unoccupied space closest to where you first entered.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000019",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fog-blue-3.jpg",
+      "name": "Control Water",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "trs",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 300,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a drop of water and a pinch of dust",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "str",
+          "dc": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.<br><em><strong>Flood.</strong></em> You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land.<br>If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.<br>The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.<br><em><strong>Part Water.</strong></em> You cause water in the area to move apart and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.<br><em><strong>Redirect flow.</strong></em> You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect.<br><em><strong>Whirlpool.</strong></em> This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC.<br>When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.<br>The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000020",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/air-burst-jade-3.jpg",
+      "name": "Dominate Beast",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "enc",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "save",
+        "save": {
+          "ability": "wis",
+          "dc": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "description": {
+          "value": "<p>You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be @Compendium[dnd5e.rules.H8aTFVG3YFAkQ3TK]{charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.<br>While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as &quot;Attack that creature,” &quot;Run over there,” or &quot;Fetch that object.” If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.<br>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.<br>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000021",
+      "flags": {},
+      "type": "spell",
+      "img": "icons/mystery-man.png",
+      "name": "Freedom Of Movement",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "abj",
+        "activation": {
+          "type": "action",
+          "cost": "1",
+          "condition": ""
+        },
+        "range": {
+          "value": 0,
+          "units": "touch"
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a leather strap, bound around the arm or a similar appendage",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.<br>The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled}. finally, being underwater imposes no penalties on the target's movement or attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000022",
+      "flags": {},
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/air-burst-jade-2.jpg",
+      "name": "Hallucinatory Terrain",
+      "data": {
+        "source": "",
+        "prepared": true,
+        "level": 4,
+        "school": "ill",
+        "activation": {
+          "type": "minute",
+          "cost": "10",
+          "condition": ""
+        },
+        "range": {
+          "value": 300,
+          "units": "ft"
+        },
+        "duration": {
+          "value": 24,
+          "units": "hour"
+        },
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a stone, a twig, and a bit of green plant",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 150,
+          "units": "ft",
+          "type": "cube"
+        },
+        "actionType": "util",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "description": {
+          "value": "<p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.<br>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt 3n Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "ability": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "0000000000000023",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 15,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

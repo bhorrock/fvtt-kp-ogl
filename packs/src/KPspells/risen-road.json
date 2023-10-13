@@ -1,0 +1,90 @@
+{
+  "_id": "KPrisenroad",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Risen Road",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM:B&D,MWB",
+    "prepared": false,
+    "level": 4,
+    "school": "trs",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 50,
+      "units": "mi"
+    },
+    "duration": {
+      "value": null,
+      "units": "2-12 hours"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a bentwood stick",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 50,
+      "units": "mi",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>When you cast this spell, you open a glowing portal into the plane of shadow. The portal remains open for 1 minute, until 10 creatures step through it, or until you collapse it (no action required). Stepping through the portal places you on a shadow road leading to a destination within 50 miles, or in a direction specified by you. The road is in ideal condition. You and your companions can travel it safely at a normal pace, but you can't rest on the road; if you stop for more than 10 minutes, the spell expires and dumps you back into the real world at a random spot within 10 miles of your starting point.<br>The spell expires 2d6 hours after being cast. When that happens, travelers on the road are safely deposited near their specified destination or 50 miles from their starting point in the direction that was specified when the spell was cast. Travelers never incur @Compendium[dnd5e.rules.apBZudO4UA1wj7aC]{exhaustion} no matter how many hours they spent walking or riding on the shadow road. The temporary shadow road ceases to exist; anything left behind is lost in the shadow realm. Each casting of <em>risen road</em> creates a new shadow road.<br>A small chance exists that a temporary shadow road might intersect with an existing shadow road, opening the possibility for meeting other travelers or monsters, or for choosing a different destination mid-journey. The likelihood is entirely up to the GM.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

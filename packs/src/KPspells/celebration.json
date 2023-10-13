@@ -1,0 +1,90 @@
+{
+  "_id": "KPcelebration",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Celebration",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:EH",
+    "prepared": false,
+    "level": 7,
+    "school": "enc",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 90,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a small party favor",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>ritual only</em><br>You create a 30-foot-radius area around a point that you choose within range. An intelligent creature that enters the area or starts its turn there must make a Wisdom saving throw. On a failed save, the creature starts to engage in celebratory revelry: drinking, singing, laughing, and dancing. Affected creatures are reluctant to leave the area until the spell ends, preferring to continue the festivities. They forsake appointments, cease caring about their woes, and generally behave in a cordial (if not hedonistic) manner. This preoccupation with merrymaking occurs regardless of an affected creature's agenda or alignment. Assassins procrastinate, servants join in the celebration rather than working, and guards abandon their posts.<br>The effect ends on a creature when it is attacked, takes damage, or is forced to leave the area. A creature that makes a successful saving throw can enter or leave the area without danger of being enchanted. A creature that fails the saving throw and is forcibly removed from the area must repeat the saving throw if it returns to the area.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 8th level or higher, the spell lasts for an additional hour for each slot level above 7th.<br><em><strong>Ritual Focus.</strong></em> If you expend your ritual focus, an unaffected intelligent creature must make a new saving throw every time it starts its turn in the area, even if it has previously succeeded on a save against the spell.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPdelaypassing",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Delay Passing",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 1,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You draw forth the ebbing life force of a creature and question it. Upon casting this spell, you must touch a creature that dropped to 0 hit points since your last turn. If it fails a Wisdom saving throw, you temporarily prevent its spirit from passing into the next realm. You are able to hear the spirit, though the spirit doesn't appear to any creature without the ability to see @Compendium[dnd5e.rules.hMWCeXenROGuhF1K]{invisible} creatures. The spirit communicates directly with your psyche and cannot see or hear anything but what you tell it.<br>You can ask the spirit a number of questions equal to your proficiency bonus. Questions must be asked directly; a delay of more than 10 seconds between the spirit answering one question and you asking another allows the spirit to escape into the afterlife. The corpse's knowledge is limited to what it knew during life, including the languages it spoke. The spirit cannot lie to you, but it can refuse to answer a question that would harm its living family or friends, or truthfully answer that it doesn't know. Once the spirit answers your allotment of questions, it passes on.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

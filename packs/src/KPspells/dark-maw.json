@@ -1,0 +1,95 @@
+{
+  "_id": "KPdarkmaw",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Dark Maw",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,EotG:PH",
+    "prepared": false,
+    "level": 0,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "msak",
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>Thick, penumbral ichor drips from your shadow-stained mouth, filling your mouth with giant shadow fangs. Make a melee spell attack against the target. On a hit, the target takes 1d8 necrotic damage as your shadowy fangs sink into it. If you have a bite attack (such as from a racial trait or a spell like <em>@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{alter self}</em>), you can add your spellcasting ability modifier to the damage roll but not to your temporary hit points.<br>If you hit a humanoid target, you gain 1d4 temporary hit points until the start of your next turn.<br>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPcurseofyig",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse of Yig",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:M",
+    "prepared": false,
+    "level": 5,
+    "school": "trs",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a drop of snake venom",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>mythos</em><br>This spell transforms a Small, Medium, or Large creature that you can see within range into a @Compendium[koboldpressogl.koboldpressmonsters.KPservantofyig]{servant of Yig}. An unwilling creature can attempt a Wisdom saving throw, negating the effect with a success. A willing creature is automatically affected and remains so for as long as you maintain concentration on the spell.<br>The transformation lasts for the duration or until the target drops to 0 hit points or dies. The target's statistics, including mental ability scores, are replaced by the statistics of a servant of Yig. The transformed creature's alignment becomes neutral evil, and it is both friendly to you and reverent toward the Father of Serpents. Its equipment is unchanged. If the transformed creature was unwilling, it makes a Wisdom saving throw at the end of each of its turns. On a successful save, the spell ends, the creature's alignment and personality return to normal, and it regains its former attitude toward you and toward Yig.<br>When it reverts to its normal form, the creature has the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPlifehack",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Life Hack",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 8,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a ruby worth 500 gp",
+      "consumed": true,
+      "cost": 500,
+      "supply": 0
+    },
+    "target": {
+      "value": 5,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>Choose up to five creatures that you can see within range. Each of the creatures gains access to a pool of temporary hit points that it can draw upon over the spell's duration or until the pool is used up. The pool contains 120 temporary hit points. The number of temporary hit points each individual creature can draw is determined by dividing 120 by the number of creatures with access to the pool. Hit points are drawn as a bonus action by the creature gaining the temporary hit points. Any number can be drawn at once, up to the maximum allowed.<br>A creature can't draw temporary hit points from the pool while it has temporary hit points from any source, including a previous casting of this spell.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

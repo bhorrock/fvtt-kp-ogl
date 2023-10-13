@@ -1,0 +1,90 @@
+{
+  "_id": "KPbloodspoor",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Blood Spoor",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 4,
+    "school": "div",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a drop of the quarry’s blood",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>blood</em><br>By touching a drop of your quarry's blood (spilled or drawn within the past hour), you can follow the creature's trail unerringly across any surface or under water, no matter how fast you are moving. If your quarry takes flight, you can follow its trail along the ground-or through the air, if you have the means to fly.<br>If your quarry moves magically (such as by way of a <em>@Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{dimension door}</em> or a <em>@Compendium[dnd5e.spells.L4J89JXqbKs6puEV]{teleport}</em> spell), you sense its trail as a straight path leading from where the magical movement started to where it ended. Such a route might lead through lethal or impassable barriers. This spell even reveals the route of a creature using <em>@Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{pass without trace}</em>, but it fails to locate a creature protected by <em>@Compendium[dnd5e.spells.aU62xVUBYkAQWIHv]{nondetection}</em> or by other effects that prevent <em>@Compendium[dnd5e.spells.fVbCxFRaORalHB20]{scrying}</em> spells or cause <em>@Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{divination}</em> spells to fail. If your quarry moves to another plane, its trail ends without trace, but <em>blood spoor</em> picks up the trail again if the caster moves to the same plane as the quarry before the spell's duration expires.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

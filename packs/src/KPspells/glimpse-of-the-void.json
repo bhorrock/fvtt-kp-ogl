@@ -1,0 +1,90 @@
+{
+  "_id": "KPglimpseofthevoid",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Glimpse of the Void",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:V,SC,MWB",
+    "prepared": false,
+    "level": 8,
+    "school": "enc",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a scrap of parchment with Void glyph scrawlings",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "int",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>Void</em><br>Muttering Void Speech, you force images of terror and nonexistence upon your foes. Each creature in a 30-foot cube centered on a point within range must make an Intelligence saving throw. On a failed save, the creature goes insane for the duration. While insane, a creature takes no actions other than to shriek, wail, gibber, and babble unintelligibly. The GM controls the creature's movement, which is erratic.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

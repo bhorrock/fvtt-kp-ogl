@@ -1,0 +1,95 @@
+{
+  "_id": "KPcostlyvictory",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Costly Victory",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:B",
+    "prepared": false,
+    "level": 8,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 90,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 10,
+      "units": "",
+      "type": "enemy"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "6d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You select up to ten enemies you can see that are within range. Each target must make a Wisdom saving throw. On a failed save, that creature is cursed to burst into flame if it reduces one of your allies to 0 hit points before this spell's duration expires. The affected creature takes 6d8 fire damage and 6d8 radiant damage when it bursts into flame.<br>If the affected creature is wearing flammable material (or is made of flammable material, such as a plant creature), it catches on fire and continues burning; the creature takes fire damage equal to your spellcasting ability modifier at the end of each of its turns until the creature or one of its allies within 5 feet of it uses an action to extinguish the fire.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

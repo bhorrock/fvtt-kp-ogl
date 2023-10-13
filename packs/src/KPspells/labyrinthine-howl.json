@@ -1,0 +1,95 @@
+{
+  "_id": "KPlabyrinthinehowl",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Labyrinthine Howl",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH",
+    "prepared": false,
+    "level": 5,
+    "school": "ill",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a dead mouse",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "7d8",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>labyrinth</em><br>You let loose the howl of a ravenous beast, causing each enemy within range that can hear you to make a Wisdom saving throw. On a failed save, a creature believes it has been transported into a labyrinth and is under attack by savage beasts. An affected creature must choose either to face the beasts or to curl into a ball for protection. A creature that faces the beasts takes 7d8 psychic damage, and then the spell ends on it. A creature that curls into a ball falls @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone} and is stunned until the end of your next turn.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d8 for each slot level above 5th.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

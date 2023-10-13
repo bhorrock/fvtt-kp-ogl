@@ -1,0 +1,95 @@
+{
+  "_id": "KPsaltlash",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Salt Lash",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of salt worth 1 sp",
+      "consumed": true,
+      "cost": 1,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>You create a long, thin blade of razor-sharp salt crystals. You can wield it as a longsword, using your spellcasting ability to modify your weapon attack rolls. The sword deals 2d8 slashing damage on a hit, and any creature struck by the blade must make a successful Constitution saving throw or be @Compendium[dnd5e.rules.TiD5vnNql12Wh3Pn]{stunned} by searing pain until the start of your next turn. Constructs and undead are immune to the blade's secondary (stun) effect; plants and creatures composed mostly of water, such as water elementals, also take an additional 2d8 necrotic damage if they fail the saving throw.<br>The spell lasts until you stop concentrating on it, the duration expires, or you let go of the blade for any reason.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

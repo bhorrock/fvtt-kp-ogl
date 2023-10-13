@@ -1,0 +1,152 @@
+{
+  "name": "Beggar: Anything you can spare",
+  "type": "feat",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "description": {
+      "value": "Having spent much of your life with no home, money, or real possessions to your name, you learned to stretch a meager amount of money much further than it should normally go. By spending several hours a day seeking out alms from affluent, or at least comfortable citizens, you can maintain a living while within an urban setting. You can maintain a poor lifestyle without spending the required coin. This lifestyle represents earning a few meager coins through begging and spending that money on 'bargain' staples.  Additionally, you know several places where you can acquire food, lodging, and basic equipment (GM's discretion as to what equipment is available at any given time) for 75% of their normal price. You can’t leverage these sources frequently, and it might be several days or weeks before you can make another discounted purchase.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "MHH, page 125",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Beggar Background",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "label": "Background Features & Proficiencies",
+      "icon": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+      "origin": "Item.MBbeggaranything",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "",
+      "changes": [
+        {
+          "key": "system.skills.per.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.dec.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.toolProf.custom",
+          "mode": 0,
+          "value": "One type of gaming set",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.toolProf.value",
+          "mode": 0,
+          "value": "thief",
+          "priority": 20
+        },
+        {
+          "key": "system.currency.gp",
+          "mode": 2,
+          "value": "10",
+          "priority": 20
+        },
+        {
+          "key": "system.details.background",
+          "mode": 2,
+          "value": "Beggar",
+          "priority": 20
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "sort": 0
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.2",
+    "coreVersion": "10.284",
+    "createdTime": 1662217097850,
+    "modifiedTime": 1662393592350,
+    "lastModifiedBy": "dnd5ebuilder0000"
+  },
+  "_id": "MBbeggaranything",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

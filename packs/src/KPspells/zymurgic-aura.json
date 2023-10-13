@@ -1,0 +1,95 @@
+{
+  "_id": "KPzymurgicaura",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Zymurgic Aura",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "W22",
+    "prepared": false,
+    "level": 7,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>A wave of putrefaction surges from you, targeting creatures of your choice within a 30-foot radius around you, speeding the rate of decay in those it touches. The target must make a Constitution saving throw. It takes 10d6 necrotic damage on a failed save or half as much on a successful save. Its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature takes a long rest.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

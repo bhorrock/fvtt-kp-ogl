@@ -1,0 +1,90 @@
+{
+  "_id": "KPsurpriseblessing",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Surprise Blessing",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM",
+    "prepared": false,
+    "level": 5,
+    "school": "abj",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You touch a willing creature and choose one of the conditions listed below that the creature is currently subjected to. The condition's normal effect on the target is suspended, and the indicated effect applies instead. This spell's effect on the target lasts for the duration of the original condition or until the spell ends. If this spell ends before the original condition's duration expires, you become affected by the condition for as long as it lasts, even if you were not the original recipient of the condition.<br><em><strong>Blinded:</strong></em> The target gains truesight out to a range of 10 feet and can see 10 feet into the Ethereal Plane.<br><em><strong>Charmed:</strong></em> The target's Charisma score becomes 19, unless it is already higher than 19, and it gains immunity to charm effects.<br><em><strong>Frightened:</strong></em> The target emits a 10-foot-radius aura of dread. Each creature the target designates that starts its turn in the aura must make a successful Wisdom saving throw or be frightened of the target. A creature frightened in this way that starts its turn outside the aura repeats the saving throw, ending the condition on itself on a success.<br><em><strong>Paralyzed:</strong></em> The target can use one extra bonus action or reaction per round.<br><em><strong>@Compendium[dnd5e.rules.1XcKtGnKprqX6fa2]{Petrified}:</strong></em> The target gains a +2 bonus to AC.<br><em><strong>Poisoned:</strong></em> The target heals 2d6 hit points at the start of its next turn, and it gains immunity to poison damage and the poisoned condition.<br><em><strong>Stunned:</strong></em> The target has advantage on Intelligence, Wisdom, and Charisma saving throws.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

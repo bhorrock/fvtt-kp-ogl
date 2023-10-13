@@ -1,0 +1,90 @@
+{
+  "_id": "KPdarkdementing",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Dark Dementing",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:S",
+    "prepared": false,
+    "level": 5,
+    "school": "ill",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a moonstone",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>shadow</em><br>A dark shadow creeps across the target's mind and leaves a small bit of shadow essence behind, triggering a profound fear of the dark. A creature you designate within range must make a Charisma saving throw. If it fails, the target becomes @Compendium[dnd5e.rules.pAcHCDJBhybiVzMF]{frightened} of you for the duration. A frightened creature can repeat the saving throw each time it takes damage, ending the effect on a success. While frightened in this way, the creature will not willingly enter or attack into a space that isn't brightly lit. If it's in dim light or darkness, the creature must either move toward bright light or create its own (by lighting a lantern, casting a <em>@Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{light}</em> spell, or the like).",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

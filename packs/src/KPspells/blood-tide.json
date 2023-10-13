@@ -1,0 +1,90 @@
+{
+  "_id": "KPbloodtide",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Blood Tide",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,SC,MWB",
+    "prepared": false,
+    "level": 0,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 25,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 4,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>blood</em><br>When you cast this spell, a creature you designate within range must succeed on a Constitution saving throw or bleed from its nose, eyes, ears, and mouth. This bleeding deals no damage but imposes a -2 penalty on the creature's Intelligence, Charisma, and Wisdom checks. <em>Blood tide</em> has no effect on undead or constructs.<br>A bleeding creature might attract the attention of creatures such as stirges, sharks, or giant mosquitoes, depending on the circumstances.<br>A <em>@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{cure wounds}</em> spell stops the bleeding before the duration of blood tide expires, as does a successful DC 10 Wisdom (Medicine) check.<br>The spell's duration increases to 2 minutes when you reach 5th level, to 10 minutes when you reach 11th level, and to 1 hour when you reach 17th level.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPreassemble",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Reassemble",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "WG,W8",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "1 gallon of black milk of Evermaw",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You touch an undead creature (dust and bones suffice) destroyed not more than 10 hours ago; the creature is surrounded by purple fire for 1 round and is returned to life with full hit points. This spell has no effect on any creatures except undead, and it cannot restore a lich whose phylactery has been destroyed, a vampire destroyed by sunlight, any undead whose remains are destroyed by fire, acid, or holy water, or any remains affected by a <em>@Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{bless}</em> or <em>@Compendium[dnd5e.spells.n4JDcFKe5ikzYmAc]{gentle repose}</em> spell.<br>This spell doesn't remove magical effects. If they aren't removed prior to casting, they return when the undead creature comes back to life.<br>This spell closes all mortal wounds but doesn't restore missing body parts. If the creature doesn't have body parts or organs necessary for survival, the spell fails.<br>Sudden reassembly is an ordeal involving enormous expenditure of necrotic energy; ley line casters within 5 miles are aware that some great shift in life forces has occurred and a sense of its direction. The target takes a -4 penalty to all attacks, saves, and ability checks. Every time it finishes a long rest, the penalty is reduced by 1 until it disappears.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

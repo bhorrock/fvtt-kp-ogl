@@ -1,0 +1,90 @@
+{
+  "_id": "KPdoomofbluecrystal",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Doom of Blue Crystal",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 3,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 3,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a blue crystal",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You are surrounded by a field of glowing, blue energy lasting 3 rounds. Creatures within 5 feet of you, including yourself, must make a Constitution saving throw when the spell is cast and again at the start of each of your turns while the spell is in effect. A creature whose saving throw fails is restrained; a restrained creature whose saving throw fails is paralyzed; and a paralyzed creature whose saving throw fails is @Compendium[dnd5e.rules.1XcKtGnKprqX6fa2]{petrified} and transforms into a statue of blue crystal. As with all concentration spells, you can end the field at any time (no action required). If you are turned to crystal, the spell ends after all affected creatures make their saving throws. Restrained and paralyzed creatures recover immediately when the spell ends, but petrification is permanent.<br>Creatures turned to crystal can see, hear, and smell normally, but they don't need to eat or breathe. If shatter is cast on a crystal creature, it must succeed on a Constitution saving throw against the caster's spell save DC or be killed.<br>Creatures transformed into blue crystal can be restored with dispel magic, greater restoration, or comparable magic.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

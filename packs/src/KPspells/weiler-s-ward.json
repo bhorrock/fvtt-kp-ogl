@@ -1,0 +1,95 @@
+{
+  "_id": "KPweilersward",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Weiler's Ward",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM",
+    "prepared": false,
+    "level": 2,
+    "school": "con",
+    "activation": {
+      "type": "bonus",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a lock of hair from a fey creature",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You create four small orbs of faerie magic that float around your head and give off dim light out to a radius of 15 feet. Whenever a Large or smaller enemy enters that area of dim light, or starts its turn in the area, you can use your reaction to attack it with one or more of the orbs. The enemy creature makes a Charisma saving throw. On a failed save, the creature is pushed 20 feet directly away from you, and each orb you used in the attack explodes violently, dealing 1d6 force damage to the creature.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the number of orbs increases by one for each slot level above 2nd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

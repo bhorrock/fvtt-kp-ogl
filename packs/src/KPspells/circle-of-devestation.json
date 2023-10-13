@@ -1,0 +1,90 @@
+{
+  "_id": "KPcircleofdevestation",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Circle of Devestation",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH,DM:Ri",
+    "prepared": false,
+    "level": 9,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 1,
+      "units": "mi"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a metal ring",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You create a 10-foot tall, 20-foot radius ring of destructive energy around a point you can see within range. The area inside the ring is difficult terrain. When you cast the spell and as a bonus action on each of your turns, you can choose one of the following damage types: cold, fire, lightning, necrotic, or radiant. Creatures and objects that touch the ring, that are inside it when it's created, or that end their turn inside the ring take 6d6 damage of the chosen type, or half damage with a successful Constitution saving throw. A creature or object reduced to 0 hit points by the spell is reduced to fine ash.<br>At the start of each of your subsequent turns, the ring's radius expands by 20 feet. Any creatures or objects touched by the expanding ring are subject to its effects immediately.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

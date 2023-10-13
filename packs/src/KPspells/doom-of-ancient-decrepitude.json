@@ -1,0 +1,90 @@
+{
+  "_id": "KPdoomofancientdecrepitude",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Doom of Ancient Decrepitude",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You generate an entropic field that rapidly ages every creature in the area of effect. The field covers a sphere with a 20-foot radius centered on you. Every creature inside the sphere when it's created, including you, must make a successful Constitution saving throw or gain 2 levels of @Compendium[dnd5e.rules.apBZudO4UA1wj7aC]{exhaustion} from sudden, traumatic aging. A creature that ends its turn in the field must repeat the saving throw, gaining 1 level of exhaustion per subsequent failure. You have advantage on these saving throws.<br>An affected creature sheds 1 level of exhaustion at the end of its turn, if it started the turn outside the spell's area of effect (or the spell has ended). Only 1 level of exhaustion can be removed this way; all remaining levels are removed when the creature completes a short or long rest. A creature that died from gaining 6 levels of exhaustion, however, remains dead.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

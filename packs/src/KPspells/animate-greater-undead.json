@@ -1,0 +1,90 @@
+{
+  "_id": "KPanimategreaterundead",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Animate Greater Undead",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM",
+    "prepared": false,
+    "level": 6,
+    "school": "nec",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 15,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pint of blood, a pound of flesh, and an ounce of bone dust, all of which the spell consumes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em>Animate greater undead</em> creates an undead servant from a pile of bones or from the corpse of a Large or Huge humanoid within range. The spell imbues the target with a foul mimicry of life, raising it as an undead skeleton or zombie. A skeleton uses the stat block of a minotaur skeleton, or a zombie uses the stat block of an ogre zombie, unless a more appropriate stat block is available.<br>The creature is under your control for 24 hours, after which it stops obeying your commands. To maintain control of the creature for another 24 hours, you must cast this spell on it again while you have it controlled. Casting the spell for this purpose reasserts your control over up to four creatures you have previously animated rather than animating a new one.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level or higher, you can reanimate one additional creature for each slot level above 6th.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

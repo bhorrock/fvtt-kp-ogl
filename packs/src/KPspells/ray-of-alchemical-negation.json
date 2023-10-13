@@ -1,0 +1,95 @@
+{
+  "_id": "KPrayofalchemicalnegation",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Ray of Alchemical Negation",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 4,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "rsak",
+    "damage": {
+      "parts": [
+        [
+          "6d6",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>You launch a ray of blazing, polychromatic energy from your fingertips. Make a ranged spell attack against an alchemical item or a trap that uses alchemy to achieve its ends, such as a trap that sprays acid, releases poisonous gas, or triggers an explosion of alchemist's fire. A hit destroys the alchemical reagents, rendering them harmless. The attack is made against the most suitable object Armor Class.<br>This spell can also be used against a creature within range that is wholly or partially composed of acidic, poisonous, or alchemical components, such as an alchemical golem or an ochre jelly. In that case, a hit deals 6d6 force damage, and the target must make a successful Constitution saving throw or it deals only half as much damage with its acidic, poisonous, or alchemical attacks for 1 minute. A creature whose damage is halved can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

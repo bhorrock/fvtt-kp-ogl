@@ -1,0 +1,90 @@
+{
+  "_id": "KPbottomlessstomach",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Bottomless Stomach",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 1,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>When you cast this spell, you gain the ability to consume dangerous substances and contain them in an extradimensional reservoir in your stomach. The spell allows you to swallow most liquids, such as acids, alcohol, poison, and even quicksilver, and hold them safely in your stomach. You are unaffected by swallowing the substance, but the spell doesn't give you resistance or immunity to the substance in general; for example, you could safely drink a bucket of a black dragon's acidic spittle, but you'd still be burned if you were caught in the dragon's breath attack or if that bucket of acid were dumped over your head.<br>The spell allows you to store up to 10 gallons of liquid at one time. The liquid doesn't need to all be of the same type, and different types don't mix while in your stomach. Any liquid in excess of 10 gallons has its normal effect when you try to swallow it.<br>At any time before you stop concentrating on the spell, you can regurgitate up to 1 gallon of liquid stored in your stomach as a bonus action. The liquid is vomited into an adjacent 5-foot square. A target in that square must succeed on a DC 15 Dexterity saving throw or be affected by the liquid. The GM determines the exact effect based on the type of liquid regurgitated, using 1d6 damage of the appropriate type as the baseline.<br>When you stop concentrating on the spell, its duration expires, or it's dispelled, the extradimensional reservoir and the liquid it contains cease to exist.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

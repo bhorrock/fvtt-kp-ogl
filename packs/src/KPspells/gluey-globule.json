@@ -1,0 +1,95 @@
+{
+  "_id": "KPglueyglobule",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Gluey Globule",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:Al",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "1 minute or 1 hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a drop of glue",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 120,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "rsak",
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>alkemancy</em><br>You make a ranged spell attack to hurl a large globule of sticky, magical glue at a creature within 120 feet. If the attack hits, the target creature is @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained}. A restrained creature can break free by using an action to make a successful Strength saving throw. When the creature breaks free, it takes 2d6 slashing damage from the glue tearing its skin. If your ranged spell attack roll was a critical hit or exceeded the target's AC by 5 or more, the Strength saving throw is made with disadvantage. The target can also be freed by an application of universal solvent or by taking 20 acid damage. The glue dissolves when the creature breaks free or at the end of 1 minute.<br>Alternatively, <em>gluey globule</em> can also be used to glue an object to a solid surface or to another object. In this case, the spell works like a single application of <em>sovereign glue</em> and lasts for 1 hour.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

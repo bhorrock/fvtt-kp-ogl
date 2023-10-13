@@ -1,0 +1,369 @@
+{
+  "_id": "KPflamedragonwyrmling",
+  "name": "Flame Dragon Wyrmling",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "dex": {
+        "value": 14,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 4
+      },
+      "con": {
+        "value": 15,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 4
+      },
+      "int": {
+        "value": 13,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "wis": {
+        "value": 12,
+        "min": 3,
+        "proficient": 1,
+        "mod": 1,
+        "save": 3
+      },
+      "cha": {
+        "value": 16,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 17
+      },
+      "hp": {
+        "value": 52,
+        "min": 0,
+        "max": 52,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "8d8+16"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 30,
+        "fly": 60,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>The dragon bears black scales, more charred than naturally colored. Cracks between the scales glow a dull red, until the dragon rears its head and roars. Red embers become bright orange flames as the creature lights up from tail to maw.</em><br>The flame dragons are capricious creatures, fascinated by dark emotions and destructive passions. The dragons of eternal fire are proud and jealous, quick to anger, and utterly unforgiving. They bring complete and total ruin to entire civilizations for trivial reasons, but their true motivation is the fun to be had. These burning serpents treat rage, deceit, and despair as toys for their amusement. “May you be the fire’s plaything” is a curse often used by the foolish.<br><em><strong>Taunting Others.</strong></em> The hot-blooded creatures tease their victims like cats, seeing the world and all within it as their rightful prey. Young flame dragons are less subtle than their elders. Wyrmlings may force a woman to watch her family die or ruin a beautiful face for pleasure—direct and evil. As the dragon matures, this natural sadism develops into a desire for more complicated sport. Aging dragons of fire use politics, murder, and magic in elaborate schemes only their ilk can appreciate. Many create plots so intricate and layered that they lack a true resolution, creating only endless manipulation. A hero might foil an assassination only to see the king thus saved become a despot. She might defeat the vizier whispering lies in the ruler’s ear only to discover he was a pawn in a vast conspiracy. Dark ambitions, poisoned daggers, and old vendettas build such momentum that one scheme begins each time another ends. Often, even killing the draconic mastermind cannot extinguish the fires it started.<br><em><strong>Malevolent Purpose.</strong></em> The results of these schemes are secondary to the enjoyment they derive from pursuing a nebulous and everchanging goal. Some spend centuries torturing a family line for nothing more than trespassing on the dragon’s land. Others plot eternal curses after twisting poorly chosen words into the most dire of insults. The vengeance itself is not as important as having an excuse to hate, plot, and ruin. Flame dragons relish such opportunities for revenge, seeing each as a delightful hobby. The disruption of a game kindles a true and terrible rage, and in these rare moments of defeat, their anger can be catastrophic. Entire cities burn.<br><em><strong>Fond of Souvenirs.</strong></em> Flame dragons are as materialistic and territorial as other true dragons. Each pursues an individual obsession it fixates upon with mad devotion to fill its hoard. Some corrupt innocence, others push nations to war, but they always collect a memento for each victory, whether petty or grand. One might collect scorched skulls, while another saves the melted treasures of toppled empires. When not out sowing discord, the ancient flame dragons enjoy contemplating their hoards. Every piece reminds them of their own majesty and genius.<br>Nothing is safe from a flame dragon’s endless scheming and narcissism. They crave absolute attention and constant reassurance. Anyone who humiliates a flame dragon would be wiser to kill it. Its survival ensures the dragon’s undivided attention for generations. It would be wiser still to make certain there is not a trace of involvement in a flame dragon’s death. All burning serpents see the murder of one of their kin as the gravest insult.<br><h2>Flame Dragon’s Lair</h2><br>Flame dragons dwell in lairs where a burning fire is always near: volcanoes, sulfur mines, caves full of geysers, and places where the Elemental Plane of Fire touches the Material Plane. Whatever the place, its purpose is always to serve as a showcase of all the trophies the dragon has collected. Carefully arranged and organized prizes decorate the walls, sometimes even protected behind crystal walls. This display both feeds the dragon's vanity and pride, and also serves as a lure to attract adventurers, since flame dragons love to encourage the lowest instincts in their prey.<br>Many of these lairs feature a huge, reflective surface. A flame dragon likes nothing more than itself.<br><h3>Lair Actions</h3><br>On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row.<ul><li>A cloud of smoke swirls in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners and the area is lightly obscured. Each creature in the cloud must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</li><li>The ground erupts with volcanic force at a point the dragon can see within 120 feet of it. Any creature within 20 feet of the point must make a successful DC 15 Dexterity saving throw or be knocked prone and trapped in the ground. A creature trapped in this way is restrained and can’t stand up. A creature can end the restraint if it or another creature takes an action to make a successful DC 15 Strength check.</li><li>A wall of fire rises up from the ground within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, can take any shape the dragon wants, and blocks line of sight. When the wall appears, each creature in its area must make a DC 15 Dexterity saving throw. A creature that fails the saving throw takes 21 (6d6) fire damage. Each creature that enters the wall for the first time each turn or ends its turn there takes 21 (6d6) fire damage. The wall is extinguished when the dragon uses this lair action again or when the dragon dies.</li><br><h3>Regional Effects</h3><br>The region containing a legendary flame dragon’s lair is warped by the dragon’s magic, which creates one or more of the following effects:<li>Arguments and misunderstandings erupt easily within 6 miles of the lair. Friendships are easily broken and criminal acts are common.</li><li>Temperatures rise within 6 miles of the lair. Crops wither, producing famines.</li><li>Sulfur geysers form in and around the dragon’s lair. Some of them erupt only once an hour, so they’re spotted only with a successful DC 20 Wisdom (Perception) check. A creature on top of an erupting geyser takes 21 (6d6) fire damage, or half damage with a successful DC 15 Dexterity saving throw.</li><br>If the dragon dies, the arguments and misunderstandings disappear immediately and the temperatures go back to normal within 1d10 days. Any geysers remain where they are.<br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic evil",
+      "race": "",
+      "type": "dragon",
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "xp": {
+        "value": 700
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "",
+      "languages": {
+        "value": [
+          "common",
+          "draconic",
+          "ignan"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": []
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 1,
+        "initiative": 20
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Flame Dragon Wyrmling",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 120,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPflamedragonwyrmling",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 17,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

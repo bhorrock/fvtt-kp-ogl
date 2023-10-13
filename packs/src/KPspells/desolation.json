@@ -1,0 +1,90 @@
+{
+  "_id": "KPdesolation",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Desolation",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:EH",
+    "prepared": false,
+    "level": 8,
+    "school": "nec",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "year"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "an obsidian acorn worth 500 gp",
+      "consumed": true,
+      "cost": 500,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "mi",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>ritual only</em><br>You plant an obsidian acorn in solid ground and spend an hour chanting a litany of curses to the natural world, after which the land within 1 mile of the acorn becomes infertile, regardless of its previous state. Nothing will grow there, and all plant life in the area dies over the course of a day. Plant creatures are not affected. Spells that summon plants, such as <em>@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{entangle}</em>, require an ability check using the caster's spellcasting ability against your spell save DC. On a successful check, the spell functions normally; if the check fails, the spell is countered by <em>desolation</em>.<br>After one year, the land slowly reverts to its normal fertility, unable to stave off the march of nature.<br>A living creature that finishes a short rest within the area of a <em>desolation</em> spell halves the result of any Hit Dice it expends. Desolation counters the effects of a <em>@Compendium[koboldpressogl.koboldpressspells.KPbloom]{bloom}</em> spell.<br><em><strong>Ritual Focus.</strong></em> If you expend your ritual focus, the duration becomes permanent.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

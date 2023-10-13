@@ -1,0 +1,90 @@
+{
+  "_id": "KPcompellingfate",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Compelling Fate",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:I",
+    "prepared": false,
+    "level": 3,
+    "school": "div",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a sprinkling of silver dust worth 20 gp",
+      "consumed": false,
+      "cost": 20,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You view the actions of a single creature you can see through the influence of the stars, and you read what is written there. If the target fails a Charisma saving throw, you can predict that creature's actions. This has the following effects:<ul><li>You have advantage on attack rolls against the target.</li><li>For every 5 feet the target moves, you can move 5 feet (up to your normal movement) on the target's turn when it has completed its movement. This is deducted from your next turn's movement.</li><li>As a reaction at the start of the target's turn, you can warn yourself and allies that can hear you of the target's offensive intentions; any creature targeted by the target's next attack gains a +2 bonus to AC or to its saving throw against that attack.</li><br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the duration is extended by 1 round for each slot level above 3rd.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

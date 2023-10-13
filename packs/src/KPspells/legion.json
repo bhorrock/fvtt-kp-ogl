@@ -1,0 +1,95 @@
+{
+  "_id": "KPlegion",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Legion",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:S",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a toy soldier",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>shadow</em><br>You call down a legion of shadowy soldiers in a 10-foot cube. Their features resemble a mockery of once-living creatures. Whenever a creature starts its turn inside the cube or within 5 feet of it, or enters the cube for the first time on its turn, the conjured shades make an attack using your melee spell attack modifier; on a hit, the target takes 3d8 necrotic damage. The space inside the cube is difficult terrain.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

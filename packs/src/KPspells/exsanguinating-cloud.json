@@ -1,0 +1,95 @@
+{
+  "_id": "KPexsanguinatingcloud",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Exsanguinating Cloud",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 5,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "6d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>blood</em><br>When you cast this spell, a rose-colored mist billows up in a 20-foot radius, centered on a point you indicate within range, making the area heavily obscured and draining blood from living creatures in the cloud. The cloud spreads around corners. It lasts for the duration or until strong wind disperses it, ending the spell.<br>This cloud leaches the blood or similar fluid from creatures in the area. It doesn't affect undead or constructs. Any creature in the cloud when it's created or at the start of your turn takes 6d6 necrotic damage and gains one level of @Compendium[dnd5e.rules.apBZudO4UA1wj7aC]{exhaustion}; a successful Constitution saving throw halves the damage and prevents the exhaustion.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

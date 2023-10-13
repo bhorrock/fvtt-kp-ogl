@@ -1,0 +1,90 @@
+{
+  "_id": "KPchildoflightanddarkness",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Child of Light and Darkness",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "W:SR",
+    "prepared": false,
+    "level": 8,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pebble from the Shadow Realm that has been left in the sun",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "str",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 1-10, you take the form of a humanoid made of pure, searing light. On a roll of 11-20, you take the form of a humanoid made of bone-chilling darkness. In both forms, you have immunity to bludgeoning, piercing, and slashing damage from nonmagical attacks, and a creature that attacks you has disadvantage on the attack roll. You gain additional benefits while in each form:<br><em><strong>Light Form.</strong></em> You shed bright light in a 60-foot radius and dim light for an additional 60 feet, you are immune to fire damage, and you have resistance to radiant damage. Once per turn, as a bonus action, you can teleport to a space you can see within the light you shed.<br><em><strong>Darkness Form.</strong></em> You are immune to cold damage, and you have resistance to necrotic damage. Once per turn, as a bonus action, you can target up to three Large or smaller creatures within 30 feet of you. Each target must succeed on a Strength saving throw or be pulled or pushed (your choice) up to 20 feet straight toward or away from you.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

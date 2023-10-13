@@ -1,0 +1,95 @@
+{
+  "_id": "KPleywhip",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Ley Whip",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH,DM:LL,MM:LL",
+    "prepared": false,
+    "level": 6,
+    "school": "evo",
+    "activation": {
+      "type": "bonus",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "mi",
+      "type": "radius"
+    },
+    "actionType": "msak",
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You channel the power of a ley line within 1 mile into a crackling tendril of multicolored ley energy. The tendril extends from your hand but doesn't interfere with your ability to hold or manipulate objects. When you cast the spell and as a bonus action on subsequent turns, you can direct the tendril to strike a target within 50 feet of you. Make a melee spell attack; on a hit, the tendril does 3d8 force damage and the target must make a Strength saving throw. If the saving throw fails, you can push the target away or pull it closer, up to 10 feet in either direction.<br><em><strong>Special.</strong></em> A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

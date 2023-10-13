@@ -1,0 +1,95 @@
+{
+  "_id": "KPwinterdark",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Winterdark",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:W",
+    "prepared": false,
+    "level": 6,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 40,
+      "units": "ft",
+      "type": "cylinder"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br>This spell invokes the deepest part of night on the winter solstice. You target a 40-foot-radius, 60-foot-high cylinder centered on a point within range, which is plunged into darkness and unbearable cold. Each creature in the area when you cast the spell and at the start of its turn must make a successful Constitution saving throw or take 1d6 cold damage and gain one level of @Compendium[dnd5e.rules.apBZudO4UA1wj7aC]{exhaustion}. Creatures immune to cold damage are also immune to the exhaustion effect, as are creatures wearing cold weather gear or otherwise adapted for a cold environment.<br>As a bonus action, you can move the center of the effect 20 feet.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

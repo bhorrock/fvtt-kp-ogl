@@ -1,0 +1,95 @@
+{
+  "_id": "KPtriumphofice",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Triumph of Ice",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 7,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a stone extracted from glacial ice",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 100,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br>You transform one of the four elements-air, earth, fire, or water-into ice or snow. The affected area is a sphere with a radius of 100 feet, centered on you. The specific effect depends on the element you choose.<ul><li><em><strong>Air.</strong></em> Vapor condenses into snowfall. If the effect of a <em>@Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{fog cloud}</em> spell, a <em>@Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{stinking cloud}</em>, or similar magic is in the area, this spell negates it. A creature of elemental air within range takes 8d6 cold damage-and, if airborne, it must make a successful Constitution saving throw at the start of its turn to avoid being knocked @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone} (no falling damage).</li><li><em><strong>Earth.</strong></em> Soil freezes into permafrost to a depth of 10 feet. A creature burrowing through the area has its speed halved until the area thaws, unless it can burrow through solid rock. A creature of elemental earth within range must make a successful Constitution saving throw or take 8d6 cold damage.</li><li><em><strong>Fire.</strong></em> Flames or other sources of extreme heat (such as molten lava) on the ground within range transform into shards of ice, and the area they occupy becomes difficult terrain. Each creature in the previously burning area takes 2d6 slashing damage when the spell is cast and 1d6 slashing damage for every 5 feet it moves in the area (unless it is not hindered by icy terrain) until the spell ends; a successful Dexterity saving throw reduces the slashing damage by half. A creature of elemental fire within range must make a successful Constitution saving throw or take 8d6 cold damage and be stunned for 1d6 rounds.</li><li><em><strong>Water.</strong></em> Open water (a pond, lake, or river) freezes to a depth of 4 feet. A creature on the surface of the water when it freezes must make a successful Dexterity saving throw to avoid being trapped in the ice. A trapped creature can free itself by using an action to make a successful Strength (Athletics) check. A creature of elemental water within range takes no damage from the spell but is paralyzed for 1d6 rounds unless it makes a successful Constitution saving throw, and it treats the affected area as difficult terrain.</li>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

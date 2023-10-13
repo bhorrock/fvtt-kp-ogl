@@ -1,0 +1,95 @@
+{
+  "_id": "KPgraspofthetupilak",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Grasp of the Tupilak",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "1 hour or until triggered"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "tupilak idol",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [
+        [
+          "2d4",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>This spell functions only against an arcane or divine spellcaster that prepares spells in advance and that has at least one unexpended spell slot of 6th level or lower. If you make a successful melee attack against such a creature before the spell ends, in addition to the usual effect of that attack, the target takes 2d4 necrotic damage and one or more of the victim's available spell slots are transferred to you, to be used as your own. Roll a d6; the result equals the total levels of the slots transferred. Spell slots of the highest possible level are transferred before lower-level slots.<br>For example, if you roll a 5 and the target has at least one 5th-level spell slot available, that slot transfers to you. If the target's highest available spell slot is 3rd level, then you might receive a 3rd-level slot and a 2nd-level slot, or a 3rd-level slot and two 1st-level slots if no 2nd-level slot is available.<br>If the target has no available spell slots of an appropriate level-for example, if you roll a 2 and the target has expended all of its 1st- and 2nd-level spell slots-then <em>grasp of the tupilak</em> has no effect, including causing no necrotic damage. If a stolen spell slot is of a higher level than you're able to use, treat it as of the highest level you can use.<br>Unused stolen spell slots disappear, returning whence they came, when you take a long rest or when the creature you stole them from receives the benefit of <em>@Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{remove curse}, @Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{greater restoration}</em>, or comparable magic.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPvomittentacles",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Vomit Tentacles",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 2,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 5,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a piece of a tentacle",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "msak",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>Your jaws distend and dozens of thin, slimy tentacles emerge from your mouth to grasp and bind your opponents. Make a melee spell attack against a foe within 15 feet of you. On a hit, the target takes bludgeoning damage equal to 2d6 + your Strength modifier and is @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} (escape DC equal to your spell save DC). Until this grapple ends, the target is restrained and it takes the same damage at the start of each of your turns. You can grapple only one creature at a time.<br>The Armor Class of the tentacles is equal to yours. If they take slashing damage equal to 5 + your Constitution modifier from a single attack, enough tentacles are severed to enable a grappled creature to escape. Severed tentacles are replaced by new ones at the start of your turn. Damage dealt to the tentacles doesn't affect your hit points.<br>While the spell is in effect, you are incapable of speech and can't cast spells that have verbal components.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,95 @@
+{
+  "_id": "KProbeofshards",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Robe of Shards",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH,DM:Cw,ZG",
+    "prepared": false,
+    "level": 6,
+    "school": "abj",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a metal shard",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [
+        [
+          "8d6",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>clockwork</em><br>You create a robe of metal shards, gears, and cogs that provides a base AC of 14 + your Dexterity modifier. As a bonus action while protected by a <em>robe of shards</em>, you can command bits of metal from a fallen foe to be absorbed by your robe; each infusion of metal increases your AC by 1, to a maximum of 18 + Dexterity modifier. You can also use a bonus action to dispel the robe, causing it to explode into a shower of flying metal that does 8d6 slashing damage, +1d6 per point of basic (non-Dexterity) AC above 14, to all creatures within 30 feet of you.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

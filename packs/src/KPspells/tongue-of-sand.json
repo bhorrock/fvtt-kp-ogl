@@ -1,0 +1,90 @@
+{
+  "_id": "KPtongueofsand",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Tongue of Sand",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,WG,W6",
+    "prepared": false,
+    "level": 3,
+    "school": "ill",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Until dispelled"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em>Tongue of sand</em> is similar in many ways to <em>@Compendium[dnd5e.spells.7v06rdmUakoTk1LQ]{magic mouth}</em>. When you cast it, you implant a message in a quantity of sand. The sand must fill a space no smaller than 4 square feet and at least 2 inches deep. The message can be up to 25 words. You also decide the conditions that trigger the speaking of the message. When the message is triggered, a mouth forms in the sand and delivers the message in a raspy, whispered voice that can be heard by creatures within 10 feet of the sand.<br>Additionally, <em>tongue of sand</em> has the ability to interact in a simple, brief manner with creatures who hear its message. For up to 10 minutes after the message is triggered, questions addressed to the sand will be answered as you would answer them. Each answer can be no more than ten words long, and the spell ends after a second question is answered.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

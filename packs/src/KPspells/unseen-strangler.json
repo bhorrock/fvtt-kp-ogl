@@ -1,0 +1,95 @@
+{
+  "_id": "KPunseenstrangler",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Unseen Strangler",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:M",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of sulfur and a live rodent",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "space"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>mythos</em><br>You conjure an immaterial, tentacled aberration in an unoccupied space you can see within range, and you specify a password that the phantom recognizes. The entity remains where you conjured it until the spell ends, until you dismiss it as an action, or until you move more than 80 feet from it.<br>The strangler is invisible to all creatures except you, and it can't be harmed. When a Small or larger creature approaches within 30 feet of it without speaking the password that you specified, the strangler starts whispering your name. This whispering is always audible to you, regardless of other sounds in the area, as long as you're conscious. The strangler sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.<br>If any creatures hostile to you are within 5 feet of the strangler at the start of your turn, the strangler attacks one of them with a tentacle. It makes a melee weapon attack with a bonus equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 3d6 bludgeoning damage, and a Large or smaller creature is @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} (escape DC = your spellcasting ability modifier + your proficiency bonus). Until this grapple ends, the target is restrained, and the strangler can't attack another target. If the strangler scores a critical hit, the target begins to suffocate and can't speak until the grapple ends.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

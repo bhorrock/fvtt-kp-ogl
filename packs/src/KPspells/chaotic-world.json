@@ -1,0 +1,90 @@
+{
+  "_id": "KPchaoticworld",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Chaotic World",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ch",
+    "prepared": false,
+    "level": 6,
+    "school": "ill",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "seven irregular pieces of colored cloth that you throw into the air",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "int",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>chaos</em><br>You throw a handful of colored cloth into the air while screaming a litany of disjointed phrases. A moment later, a 30-foot cube centered on a point within range fills with multicolored light, cacophonous sound, overpowering scents, and other confusing sensory information. The effect is dizzying and overwhelming. Each enemy within the cube must make a successful Intelligence saving throw or become @Compendium[dnd5e.rules.995mfaI3z7WtY7vK]{blinded} and deafened, and fall prone. An affected enemy cannot stand up or recover from the blindness or deafness while within the area, but all three conditions end immediately for a creature that leaves the spell's area.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

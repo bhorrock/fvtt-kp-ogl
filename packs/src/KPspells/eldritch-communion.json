@@ -1,0 +1,90 @@
+{
+  "_id": "KPeldritchcommunion",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Eldritch Communion",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:M",
+    "prepared": false,
+    "level": 5,
+    "school": "div",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "corvid entrails, a dried opium poppy, and a glass dagger",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>mythos</em><br>You contact a Great Old One and ask one question that can be answered with a one-sentence reply no more than twenty words long. You must ask your question before the spell ends. There is a 25 percent chance that the answer contains a falsehood or is misleading in some way. (The GM determines this secretly.)<br>Great Old Ones have vast knowledge, but they aren't omniscient, so if your question pertains to information beyond the Old One's knowledge, the answer might be vacuous, gibberish, or an angry, \"I don't know.\"<br>This also reveals the presence of all aberrations within 300 feet of you. There is a 1-in-6 chance that each aberration you become aware of also becomes aware of you.<br>If you cast <em>eldritch communion</em> two or more times before taking a long rest, there is a cumulative 25 percent chance for each casting after the first that you receive no answer and become afflicted with short-term madness.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

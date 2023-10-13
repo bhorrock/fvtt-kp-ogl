@@ -1,0 +1,90 @@
+{
+  "_id": "KPcurseofboreas",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse of Boreas",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 6,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br>You designate a creature within range that you can see. If the target fails a Charisma saving throw, it and its equipment are frozen solid, becoming an inert statue of ice. The creature is effectively @Compendium[dnd5e.rules.BJaVW22yVYe7dtzq]{paralyzed}, but mental activity does not cease, and signs of life are detectable; the creature still breathes and its heart continues to beat, though both acts are almost imperceptible. If the ice statue is broken or damaged while frozen, the creature will have matching damage or injury when returned to its original state. <em>@Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel magic}</em> can't end this spell, but it can allow the target to speak (but not move or cast spells) for a number of rounds equal to the spell slot used. <em>@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Greater restoration}</em> or more potent magic is needed to free a creature from the ice.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

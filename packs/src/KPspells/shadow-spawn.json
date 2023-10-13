@@ -1,0 +1,90 @@
+{
+  "_id": "KPshadowspawn",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Shadow Spawn",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 6,
+    "school": "ill",
+    "activation": {
+      "type": "hour",
+      "cost": "4",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "an onyx gem worth 1,000 gp, and the corpse of the creature to be duplicated",
+      "consumed": false,
+      "cost": 1000,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>Casting this spell consumes the corpse of a creature and creates a shadowy duplicate of it. The creature returns as a @Compendium[koboldpressogl.koboldpressmonsters.KPshadowbeast]{shadow beast}. The shadow beast has dim memories of its former life and retains free will; casters are advised to be ready to make an attractive offer to the newly-risen shadow beast, to gain its cooperation.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

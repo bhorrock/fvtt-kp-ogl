@@ -1,0 +1,90 @@
+{
+  "_id": "KPcurseofthegrave",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse of the Grave",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,EotG:PH",
+    "prepared": false,
+    "level": 7,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Until dispelled"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of dirt from a freshly dug grave",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You tap your connection to death to curse a humanoid, making the grim pull of the grave stronger on that creature's soul.<br>Choose one humanoid you can see within range. The target must succeed on a Constitution saving throw or become cursed. A <em>@Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{remove curse}</em> spell or similar magic ends this curse. While cursed in this way, the target suffers the following effects:<ul><li>The target fails death saving throws on any roll but a 20.</li><li>If the target dies while cursed, it rises 1 round later as a vampire spawn under your control and is no longer cursed.</li><li>The target, as a vampire spawn, seeks you out in an attempt to serve its new master. You can have only one vampire spawn under your control at a time through this spell. If you create another, the existing one turns to dust. If you or your companions do anything harmful to the target, it can make a Wisdom saving throw. On a success, it is no longer under your control.</li>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

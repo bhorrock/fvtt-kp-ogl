@@ -1,0 +1,369 @@
+{
+  "_id": "KPborealdragonwyrmling",
+  "name": "Boreal Dragon Wyrmling",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "min": 3,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "dex": {
+        "value": 10,
+        "min": 3,
+        "proficient": 1,
+        "mod": 0,
+        "save": 2
+      },
+      "con": {
+        "value": 15,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 4
+      },
+      "int": {
+        "value": 11,
+        "min": 3,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "wis": {
+        "value": 13,
+        "min": 3,
+        "proficient": 1,
+        "mod": 1,
+        "save": 3
+      },
+      "cha": {
+        "value": 12,
+        "min": 3,
+        "proficient": 1,
+        "mod": 1,
+        "save": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 17
+      },
+      "hp": {
+        "value": 39,
+        "min": 0,
+        "max": 39,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "6d8+12"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 60,
+        "swim": 20,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Covered in a mix of hard, blue-white scales and patches of silvery-blue fur, this dragon radiates a savage belligerence. Its amber eyes gleam with primal fury as it stretches its wings, sending a shower of burning sparks sizzling onto the ground.</em><br><strong>Paradoxical Predators.</strong> Boreal dragons inhabit the arctic and alpine places of the world, from snow-capped conifer forests and frigid mountain peaks to flat, icy plains and polar seas. Unlike white or silver dragons, however, boreal dragons are not creatures of cold but rather of heat and flames. Their breath is filled with burning embers, and their preferred lairs contain some sort of natural heat source. While this contradiction has puzzled many scholars of draconic lore, boreal dragons are unconcerned about such trivial matters and are likely to devour any sage or wizard impertinent enough to question their choice of habitat.<br><strong>Dragons of Rage.</strong> Boreal dragons are among the most straightforward of all true dragons, driven by simple necessities like hunting and mating. They hate most other dragons with a passion and war constantly with those that share their arctic homeland, driving off or killing any dragons they encounter. Boreal dragons are truculent creatures and love nothing better than getting into a fight; however, they do not target defenseless creatures or those far weaker than themselves unless they are hunting for food. Because they respect strength above all else, a creature can gain a boreal dragon’s admiration through acts of intense bravery or slaughter. In particular, the dragons are fond of large arctic predators, such as @Compendium[dnd5e.monsters.tYYoifu9teGLetVI]{saber-toothed tigers} and @Compendium[dnd5e.monsters.hb6pjvdCNYmLLp8V]{polar bears}, and often invite the creatures to live in their lairs.<br><h2>A Boreal Dragon’s Lair</h2><br>Boreal dragons make their home in arctic or subarctic regions, particularly areas warmed by geothermal activity. Suitable sites for their lairs include cliffs above magma deposits or fissures, large caves at the edge of volcanic craters or near hot springs, or the abandoned outposts of fire giants. Boreal dragons also enjoy taking over the lairs of other dragons, particularly those they have personally slain or driven out.<br><h3>Lair Actions</h3><br>On initiative count 20 (losing initiative ties), the dragon can take a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row:<ul><li>The dragon chooses a creature it can see within 120 feet of it. The target must succeed on a DC 15 Wisdom saving throw or become enraged until the end of its next turn. While enraged, the creature has advantage on melee attack rolls, but it is unable to distinguish friend from foe and must attack the nearest creature other than the dragon. If no other creature is near enough to move to and attack, the victim stalks off in a random direction, seeking a target for its rage.</li><li>The dragon magically calls a @Compendium[dnd5e.monsters.tYYoifu9teGLetVI]{saber-toothed tiger} or @Compendium[dnd5e.monsters.hb6pjvdCNYmLLp8V]{polar bear} to aid it in battle. The creature appears within 120 feet of the dragon, emerging from a nearby cave entrance or other suitable opening, and acts as the dragon’s ally. The creature remains for 1 minute, until the dragon uses this lair action again, or until the dragon dies.</li><li>Searing winds batter a point the dragon can see within 120 feet of it. Each creature within 20 feet of that point must make a DC 15 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) bludgeoning damage on a failed save, or half as much damage on a successful one.</li><br><h3>Regional Effects</h3><br>The region containing a legendary boreal dragon’s lair is warped by the dragon’s magic, which creates one or more of the following effects:<li>Temperatures within 5 miles of the dragon’s lair are warmer than in the surrounding lands. Snow melts shortly after landing, plants are more common, and animals lose their winter coats.</li><li>Beasts and monstrosities are more aggressive within 3 miles of the dragon’s lair. Animal Handling checks in the area are made with disadvantage.</li><li>Volcanic fissures and geysers spring up within 1 mile of the dragon’s lair. If the dragon dies, these effects fade over the course of 1d10 days.</li><br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": "dragon",
+      "environment": "",
+      "cr": 2,
+      "spellLevel": 0,
+      "xp": {
+        "value": 450
+      },
+      "source": "ToB2"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "blindsight 10 ft., darkvision 60 ft.",
+      "languages": {
+        "value": [
+          "draconic"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": []
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 1,
+        "initiative": 20
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Boreal Dragon Wyrmling",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPborealdragonwyrmling",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "0000000000000001",
+      "name": "Natural Armor",
+      "permission": {
+        "default": 0,
+        "OtBWCJNgwo0VVuQx": 3
+      },
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 17,
+          "type": "natural",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    }
+  ]
+}

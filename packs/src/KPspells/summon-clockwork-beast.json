@@ -1,0 +1,90 @@
+{
+  "_id": "KPsummonclockworkbeast",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Summon Clockwork Beast",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": ",W14",
+    "prepared": false,
+    "level": 5,
+    "school": "con",
+    "activation": {
+      "type": "minute",
+      "cost": "10",
+      "condition": ""
+    },
+    "range": {
+      "value": 10,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a handful of tiny gears",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>clockwork</em><br>Once per day, you can cast this ritual to summon a Tiny @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast}. The creature is considered a construct and can take the shape of the following: a spider, rat, snake, octopus, bat, or raven. The @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast} appears in an unoccupied space within range.<br>The @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast} acts independently of you but always obeys your commands. In combat, it rolls its own initiative and acts on its own turn.<br>When the @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast} is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through the @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast's} eyes and hear what it hears, and you continue to do so until you use your action to return to your normal senses. During this time, you are deaf and blind with regard to your own senses.<br>The @Compendium[koboldpressogl.koboldpressmonsters.KPclockworkbeast]{clockwork beast} doesn't require air, food, drink, or sleep. When its hit points are reduced to 0, it crumbles into a heap of gears and springs.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

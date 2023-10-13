@@ -1,0 +1,95 @@
+{
+  "_id": "KPstarsheart",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Star's Heart",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:I",
+    "prepared": false,
+    "level": 9,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 50,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "an ioun stone",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 50,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "str",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>illumination</em><br>This spell increases gravity tenfold in a 50-foot radius centered on you. Each creature in the area other than you drops whatever it's holding, falls @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone}, becomes incapacitated, and can't move. If a solid object (such as the ground) is encountered when a flying or levitating creature falls, the creature takes three times the normal falling damage. Any creature except you that enters the area or starts its turn there must make a successful Strength saving throw or fall prone and become incapacitated and unable to move. A creature that starts its turn prone and incapacitated makes a Strength saving throw. On a failed save, the creature takes 8d6 bludgeoning damage; on a successful save, it takes 4d6 bludgeoning damage, it's no longer incapacitated, and it can move at half speed.<br>All ranged weapon attacks inside the area have a normal range of 5 feet and a maximum range of 10 feet. The same applies to spells that create missiles that have mass, such as <em>@Compendium[dnd5e.spells.FjYE214HTERCRZNm]{flaming sphere}</em>. A creature under the influence of a <em>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{freedom of movement}</em> spell or comparable magic has advantage on the Strength saving throws required by this spell, and its speed isn't reduced once it recovers from being incapacitated.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

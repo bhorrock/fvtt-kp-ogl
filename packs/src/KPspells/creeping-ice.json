@@ -1,0 +1,95 @@
+{
+  "_id": "KPcreepingice",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Creeping Ice",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:W",
+    "prepared": false,
+    "level": 2,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "square"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "str",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br>You create a sheet of ice that covers a 5-foot square within range and lasts for the spell's duration. The iced area is difficult terrain.<br>A creature in the area where you cast the spell must make a successful Strength saving throw or be @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained} by ice that rapidly encases it. A creature restrained by the ice takes 2d6 cold damage at the start of its turn. A restrained creature can use an action to make a Strength check against your spell save DC, freeing itself on a success, but it has disadvantage on this check. The creature can also be freed (and the spell ended) by dealing at least 20 damage to the ice. The restrained creature takes half the damage from any attacks against the ice.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th to 6th level, the area increases to a 10-foot square, the ice deals 4d6 cold damage, and 40 damage is needed to melt each 5-foot square. When you cast this spell using a spell slot of 7th level or higher, the area increases to a 20-foot square, the ice deals 6d6 cold damage, and 60 damage is needed to melt each 5-foot square.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

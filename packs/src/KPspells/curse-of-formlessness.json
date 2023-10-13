@@ -1,0 +1,90 @@
+{
+  "_id": "KPcurseofformlessness",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse of Formlessness",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 6,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a drop of quicksilver",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>A creature you touch must make a successful Constitution saving throw or be cursed with a shifting, amorphous form. Spells that change the target creature's shape (such as <em>@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{polymorph}</em>) do not end the curse, but they do hold the creature in a stable form, temporarily mitigating it until the end of that particular spell's duration; shapechange and stoneskin have similar effects.<br>While under the effect of the <em>curse of formlessness</em>, the target creature is resistant to slashing and piercing damage and ignores the additional damage done by critical hits, but it can neither hold nor use any item, nor can it cast spells or activate magic items. Its movement is halved, and winged flight becomes impossible. Any armor, clothing, helmet, or ring becomes useless. Large items that are carried or worn, such as armor, backpacks, or clothing, become hindrances, so the target has disadvantage on Dexterity checks and saving throws while such items are in place.<br>A creature under the effect of a <em>curse of formlessness</em> can try to hold itself together through force of will. The afflicted creature uses its action to repeat the saving throw; if it succeeds, the afflicted creature negates the penalties from the spell until the start of its next turn.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

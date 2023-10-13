@@ -1,0 +1,90 @@
+{
+  "_id": "KPsnowboulder",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Snow Boulder",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 4,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 90,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 4,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a handful of snow",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br>A ball of snow forms 5 feet away from you and rolls in the direction you point at a speed of 30 feet, growing larger as it moves. To roll the boulder into a creature, you must make a successful ranged spell attack. If the boulder hits, the creature must make a successful Dexterity saving throw or be knocked @Compendium[dnd5e.rules.ZkXz0qdkNBkKE6tN]{prone} and take the damage indicated below. Hitting a creature doesn't stop the snow boulder's movement or impede its growth, as long as you continue to maintain concentration on the effect. When the spell ends, the boulder stops moving.<table><tr><th>Round</th><th>Size</th><th>Damage</th></tr><tr><td>1</td><td>Small</td><td>1d6 bludgeoning</td></tr><tr><td>2</td><td>Medium</td><td>2d6 bludgeoning</td></tr><tr><td>3</td><td>Large</td><td>4d6 bludgeoning</td></tr><tr><td>4</td><td>Huge</td><td>6d6 bludgeoning</td></tr>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPwhogoesthere",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Who Goes There?",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "WG,W10",
+    "prepared": false,
+    "level": 5,
+    "school": "con",
+    "activation": {
+      "type": "minute",
+      "cost": "10",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a flour sifter",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You sift the surrounding air for sound wave remnants of recent conversations to discern passwords or other important information gleaned from a conversation, such as by guards on a picket line.<br>The spell creates a cloud of words in the caster's mind, assigning relevance to them. Selecting the correct word or phrase is not foolproof, but you can make an educated guess.<br>You make a Wisdom (Perception) check against the target person's Wisdom score (DC 10, if not specified) to successfully pick the key word or phrase.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

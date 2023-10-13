@@ -1,0 +1,90 @@
+{
+  "_id": "KPcurseofincompetence",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse of Incompetence",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:B",
+    "prepared": false,
+    "level": 3,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>By making mocking gestures toward one creature within<br>range that can see you, you leave the creature incapable of<br>performing at its best. If the target fails on an Intelligence<br>saving throw, roll a d4 and refer to the following table to<br>determine what the target does on its turn. An affected<br>target repeats the saving throw at the end of each of its<br>turns, ending the effect on itself on a success or applying<br>the result of another roll on the table on a failure.<table><tr><th>D4</th><th>RESULT</th></tr><tr><td>1</td><td>Target spends its turn shouting mocking words at caster and takes a -5 penalty to its initiative roll.</td></tr><tr><td>2</td><td>Target stands transfixed and blinking, takes no action.</td></tr><tr><td>3</td><td>Target flees or fights (50 percent chance of each).</td></tr><tr><td>4</td><td>Target charges directly at caster, enraged.</td></tr>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

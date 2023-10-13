@@ -1,0 +1,90 @@
+{
+  "_id": "KPextractfoyson",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Extract Foyson",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH,DM:EH",
+    "prepared": false,
+    "level": 1,
+    "school": "trs",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 30,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a wooden bowl",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You extract the goodness in food, pulling all the nutrition out of three days' worth of meals and concentrating it into about a tablespoon of bland, flourlike powder. The flour can be mixed with liquid and drunk or baked into elven bread. Foyson used in this way still imparts all the nutritional value of the original food, for the amount consumed.<br>The original food appears unchanged and though it's still filling, it has no nutritional value. Someone eating nothing but foyson-free food will eventually starve.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, an additional three meals' worth of food can be extracted for each slot level above 1st.<br><em><strong>Ritual Focus.</strong></em> If you expend your ritual focus, you can choose to have each day's worth of foyson take the form of a slice of delicious elven bread.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

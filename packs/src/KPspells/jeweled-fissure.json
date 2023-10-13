@@ -1,0 +1,95 @@
+{
+  "_id": "KPjeweledfissure",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Jeweled Fissure",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "HH",
+    "prepared": false,
+    "level": 3,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a shard of jasper",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>dragon</em><br>With a sweeping gesture, you cause jagged crystals to burst from the ground and hurtle directly upward. Choose an origin point within the spell's range that you can see. Starting from that point, the crystals burst out of the ground along a 30-foot line. All creatures in that line and up to 100 feet above it take 2d8 thunder damage plus 2d8 piercing damage; a successful Dexterity saving throw negates the piercing damage.<br>A creature that fails the saving throw is impaled by a chunk of crystal that halves the creature's speed, prevents it from flying, and causes it to fall to the ground if it was flying. To remove a crystal, the creature or an ally within 5 feet of it must use an action and make a successful DC 13 Strength check. If the check succeeds, the impaled creature takes 1d8 piercing damage and its speed and flying ability are restored to normal.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

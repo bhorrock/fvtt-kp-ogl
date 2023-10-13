@@ -1,0 +1,95 @@
+{
+  "_id": "KPpyroclasm",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Pyroclasm",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:E",
+    "prepared": false,
+    "level": 9,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 500,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a shard of obsidian",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 2.5,
+      "units": "ft",
+      "type": "cylinder"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You point toward an area of ground or a similar surface within range. A geyser of lava erupts from the chosen spot. The geyser is 5 feet in diameter and 40 feet high. Each creature in the cylinder when it erupts or at the start of your turn takes 10d8 fire damage, or half as much damage if it makes a successful Dexterity saving throw.<br>The geyser also forms a pool of lava at its base. Initially, the pool is the same size as the geyser, but at the start of each of your turns for the duration, the pool's radius increases by 5 feet. A creature in the pool of lava (but not in the geyser) at the start of your turn takes 5d8 fire damage.<br>When a creature leaves the pool of lava, its speed is reduced by half and it has disadvantage on Dexterity saving throws, caused by a hardening layer of lava. These penalties last until the creature uses an action to break the hardened stone away from itself.<br>If you maintain concentration on <em>pyroclasm</em> for a full minute, the lava geyser and pool harden into permanent, nonmagical stone. A creature in either area when the stone hardens is @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained} until the stone is broken away.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

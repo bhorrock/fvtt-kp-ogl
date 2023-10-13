@@ -1,0 +1,90 @@
+{
+  "_id": "KPincantationofliesmadetruth",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Incantation of Lies Made Truth",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 9,
+    "school": "enc",
+    "activation": {
+      "type": "hour",
+      "cost": "9",
+      "condition": ""
+    },
+    "range": {
+      "value": 1000,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "celestial blood, demon ichor, mockingbird feather quills, powdered gold and silver, and rare inks worth 25,000 gp",
+      "consumed": false,
+      "cost": 25000,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>This ritual must be cast during a solar eclipse. It can target a person, an organization (including a city), or a kingdom. If targeting an organization or a kingdom, the incantation requires an object epitomizing the entity as part of the material component, such as a crown, mayoral seal, standard, or primary relic. If targeting a person, the primary performer must hold a vial of the person's blood.<br>Over the course of the incantation, the components are mixed and the primary caster inscribes a false history and a sum of knowledge concerning the target into the book using the mockingbird quills.<br>When the incantation is completed, whatever the caster wrote in the book becomes known and accepted as truth by the target. The target can attempt a Wisdom saving throw to negate this effect. If the target was a city or a kingdom, the saving throw is made with advantage by its current leader or ruler. If the saving throw fails, all citizens or members of the target organization or kingdom believe the account written in the book to be fact. Any information contrary to what was written in the book is forgotten within an hour, but individuals who make a sustained study of such information can attempt a Wisdom saving throw to retain the contradictory knowledge. Books containing contradictory information are considered obsolete or purposely misleading. Permanent structures such as statues of heroes who've been written out of existence are believed to be purely artistic endeavors or so old that no one remembers their identities anymore.<br>The effects of this ritual can be reversed by washing the written words from the book using universal solvent and then burning the book to ashes in a magical fire.<br><em>Incantation of lies made truth</em> is intended to be a villainous motivator in a campaign, with the player characters fighting to uncover the truth and reverse the spell's effect. The GM should take care not to remove too much player agency with this ritual. The creatures affected should be predominantly NPCs, with PCs and even select NPCs able to resist it. Reversing the effect of the ritual can be the entire basis of a campaign.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

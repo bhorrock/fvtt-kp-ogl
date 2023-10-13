@@ -1,0 +1,90 @@
+{
+  "_id": "KPentomb",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Entomb",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:E",
+    "prepared": false,
+    "level": 6,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 90,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a chip of granite",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You cause slabs of rock to burst out of the ground or other stone surface to form a hollow, 10-foot cube within range. A creature inside the cube when it forms must make a successful Dexterity saving throw or be trapped inside the stone tomb. The tomb is airtight, with enough air for a single Medium or Small creature to breathe for 8 hours. If more than one creature is trapped inside, divide the time evenly between all the occupants. A Large creature counts as four Medium creatures. If the creature is still trapped inside when the air runs out, it begins to suffocate.<br>The tomb has AC 18 and 50 hit points. It is resistant to fire, cold, lightning, bludgeoning, and slashing damage, is immune to poison and psychic damage, and is vulnerable to thunder damage. When reduced to 0 hit points, the tomb crumbles into harmless powder.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

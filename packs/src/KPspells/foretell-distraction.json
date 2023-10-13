@@ -1,0 +1,90 @@
+{
+  "_id": "KPforetelldistraction",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Foretell Distraction",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:CD,SC",
+    "prepared": false,
+    "level": 1,
+    "school": "div",
+    "activation": {
+      "type": "bonus",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>temporal</em><br>Thanks to your foreknowledge, you know exactly when your foe will take his or her eyes off you. Casting this spell has the same effect as making a successful Dexterity (Stealth) check, provided cover or concealment is available within 10 feet of you. It doesn't matter whether enemies can see you when you cast the spell; they glance away at just the right moment. You can move up to 10 feet as part of casting the spell, provided you're able to move (not restrained or @Compendium[dnd5e.rules.b4UvTt9P3As79cwm]{grappled} or reduced to a speed of less than 10 feet for any other reason). This move doesn't count as part of your normal movement. After the spell is cast, you must be in a position where you can remain hidden: a lightly obscured space, for example, or a space where you have total cover. Otherwise, enemies see you again immediately and you're not hidden.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

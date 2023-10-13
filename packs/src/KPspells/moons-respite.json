@@ -1,0 +1,95 @@
+{
+  "_id": "KPmoonsrespite",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Moon's Respite",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "MWB",
+    "prepared": false,
+    "level": 5,
+    "school": "abj",
+    "activation": {
+      "type": "hour",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "pure water and a silver nugget worth at least 350 gp, which the spell consumes",
+      "consumed": false,
+      "cost": 350,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You touch a creature who must be present for the entire casting. A beam of moonlight shines down from above, bathing the target in radiant light. The spell fails if you can't see the open sky.<br>If the target has any levels of shadow corruption, the moonlight burns away some of the Shadow tainting it. The creature must make a Constitution saving throw against a DC of 10 + the number of shadow corruption levels it has. The creature takes 2d10 radiant damage per level of shadow corruption and removes 1 level of shadow corruption on a failed saving throw, or half as much damage and removes 2 levels of shadow corruption on a success.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

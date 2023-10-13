@@ -1,0 +1,90 @@
+{
+  "_id": "KPsongoftheforest",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Song of the Forest",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:EH",
+    "prepared": false,
+    "level": 3,
+    "school": "trs",
+    "activation": {
+      "type": "minute",
+      "cost": "10",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a dried leaf, crumpled and released",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>ritual only</em><br>You attune your senses to the natural world, so that you detect every sound that occurs within 60 feet: wind blowing through branches, falling leaves, grazing deer, trickling streams, and more. You can clearly picture the source of each sound in your mind. The spell gives you tremorsense out to a range of 10 feet. In addition, you have advantage on Wisdom (Perception) checks that rely on hearing. Creatures that make no noise or that are magically silent cannot be detected by this spell's effect.<br><em>Song of the forest</em> functions only in natural environments; it fails if cast underground, in a city, or in a building that isolates the caster from nature (GM's discretion).<br><em><strong>Ritual Focus.</strong></em> If you expend your ritual focus, the spell also gives you blindsight out to a range of 30 feet.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

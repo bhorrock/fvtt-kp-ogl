@@ -1,0 +1,90 @@
+{
+  "_id": "KPwingedspies",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Winged Spies",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 4,
+    "school": "div",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 10,
+      "units": "mi"
+    },
+    "duration": {
+      "value": 10,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>This spell summons a swarm of ravens or other birds-or a swarm of bats if cast at night or underground-to serve you as spies. The swarm moves out as you direct, but it won't patrol farther away than the spell's range. Commands must be simple, such as \"search the valley to the east for travelers\" or \"search everywhere for humans on horses.\" The GM can judge how clear and effective your instructions are and use that estimation in determining what the spies report.<br>You can recall the spies at any time by whispering into the air, but the spell ends when the swarm returns to you and reports. You must receive the swarm's report before the spell expires, or you gain nothing.<br>The swarm doesn't fight for you; it avoids danger if possible but defends itself if it must. You know if the swarm is destroyed, and the spell ends.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

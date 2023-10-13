@@ -2,30 +2,32 @@
   "name": "Shadow Realm gifts",
   "version": "0.1.0",
   "scripts": {
-    "test": "jest",
-    "scan-xml": "node ./.github/scripts/scan-xml.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp buildAll",
+    "build:clean": "gulp cleanPacks",
+    "build:css": "gulp buildCSS",
+    "build:db": "gulp compilePacks",
+    "build:json": "gulp extractPacks",
+    "build:watch": "gulp",
+    "lint": "gulp lint",
+    "lint:fix": "gulp lint --fix"
   },
   "devDependencies": {
-    "directory-tree": "^3.5.1",
-    "eslint": "^8.32.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "jest": "^27.5.1",
-    "@xmldom/xmldom": "^0.7.0"
-  },
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "env": {
-      "browser": true,
-      "es6": true
-    },
-    "rules": {
-      "no-extra-semi": 1,
-      "curly": "error"
-    }
+    "@babel/eslint-parser": "^7.15.4",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "eslint-plugin-jsdoc": "^39.6.7",
+    "fancy-log": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-eslint7": "^0.3.1",
+    "gulp-if": "^3.0.0",
+    "gulp-less": "^5.0.0",
+    "merge-stream": "^2.0.0",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7",
+    "rollup": "^3.9.1",
+    "through2": "^4.0.2",
+    "yargs": "^17.5.1"
   },
   "dependencies": {
   }

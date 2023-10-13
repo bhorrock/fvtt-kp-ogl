@@ -1,0 +1,90 @@
+{
+  "_id": "KPdoomoftheearthenmaw",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Doom of the Earthen Maw",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:B&D,MWB",
+    "prepared": false,
+    "level": 4,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "str",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>The ground within 30 feet of a point you designate turns into filthy and slippery muck. This spell affects sand, earth, mud, and ice, but not stone, wood, or other material. For the duration, the ground in the affected area is difficult terrain. A creature in the area when you cast the spell must succeed on a Strength saving throw or be @Compendium[dnd5e.rules.QRKWz3p6v9Rl1Tzh]{restrained} by the mud until the spell ends. A restrained creature can free itself by using an action to make a successful Strength saving throw. A creature that frees itself or that enters the area after the spell was cast is affected by the difficult terrain but doesn't become restrained.<br>Each round, a restrained creature sinks deeper into the muck. A Medium or smaller creature that is restrained for 3 rounds becomes submerged at the end of its third turn. A Large creature becomes submerged after 4 rounds. Submerged creatures begin suffocating if they aren't holding their breath. A creature that is still submerged when the spell ends is sealed beneath the newly solidified ground. The creature can escape only if someone else digs it out or it has a burrowing speed.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

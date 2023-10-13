@@ -1,0 +1,90 @@
+{
+  "_id": "KPlivingshadows",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Living Shadows",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:V,MWB",
+    "prepared": false,
+    "level": 5,
+    "school": "enc",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 120,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "str",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>void</em><br>You whisper sibilant words of void speech that cause shadows to writhe with unholy life. Choose a point you can see within range. Writhing shadows spread out in a 15-foot-radius sphere centered on that point, grasping at creatures in the area. A creature that starts its turn in the area or that enters the area for the first time on its turn must make a successful Strength saving throw or be restrained by the shadows. A creature that starts its turn restrained by the shadows must make a successful Constitution saving throw or gain one level of @Compendium[dnd5e.rules.apBZudO4UA1wj7aC]{exhaustion}.<br>A restrained creature can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

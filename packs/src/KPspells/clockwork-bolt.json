@@ -1,0 +1,95 @@
+{
+  "_id": "KPclockworkbolt",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Clockwork Bolt",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM",
+    "prepared": false,
+    "level": 0,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "an arrow or crossbow bolt",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>clockwork</em><br>You imbue an arrow or crossbow bolt with clockwork magic just as you fire it at your target; spinning blades materialize on the missile after it strikes to further mutilate your enemy.<br>As part of the action used to cast this spell, you make a ranged weapon attack with a bow or a crossbow against one creature within range. If the attack hits, the missile embeds in the target. Unless the target (or an ally of it within 5 feet) uses an action to remove the projectile (which deals no additional damage), the target takes an additional 1d8 slashing damage at the end of its next turn from spinning blades that briefly sprout from the missile's shaft. Afterward, the projectile reverts to normal.<br>This spell deals more damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d8 slashing damage to the target, and the target takes an additional 1d8 slashing damage (2d8 total) if the embedded ammunition isn't removed. Both damage amounts increase by 1d8 again at 11th level and at 17th level.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

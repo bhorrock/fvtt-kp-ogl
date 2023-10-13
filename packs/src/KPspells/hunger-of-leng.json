@@ -1,0 +1,90 @@
+{
+  "_id": "KPhungerofleng",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Hunger of Leng",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:M",
+    "prepared": false,
+    "level": 4,
+    "school": "enc",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 90,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of salt and a drop of the caster’s blood",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>mythos</em><br>You curse a creature that you can see in range with an insatiable, ghoulish appetite. If it has a digestive system, the creature must make a successful Wisdom saving throw or be compelled to consume the flesh of living creatures for the duration.<br>The target gains a bite attack and moves to and attacks the closest creature that isn't an undead or a construct. The target is proficient with the bite, and it adds its Strength modifier to the attack and damage rolls. The damage is piercing and the damage die is a d4. If the target is larger than Medium, its damage die increases by 1d4 for each size category it is above Medium. In addition, the target has advantage on melee attack rolls against any creature that doesn't have all of its hit points.<br>If there isn't a viable creature within range for the target to attack, it deals piercing damage to itself equal to 2d4 + its Strength modifier. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. If the target has two consecutive failures, <em>hunger of Leng</em> lasts its full duration with no further saving throws allowed.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

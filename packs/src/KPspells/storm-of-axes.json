@@ -1,0 +1,95 @@
+{
+  "_id": "KPstormofaxes",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Storm of Axes",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": ",W12",
+    "prepared": false,
+    "level": 4,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 25,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "concentration + 1 round"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "axe handle",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "dex",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "6d8",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>battle</em><br>You conjure up dozens of axes and direct them in a pattern in chopping, whirling mayhem. The blades fill eight 5-foot squares in a line 40 feet long or in a double-strength line 20 feet long and 10 deep. The axes cause 6d8 slashing damage to creatures in the area at the moment the spell is cast or half damage with a successful Dexterity saving throw. By maintaining concentration, you can move the swarm of axes up to 20 feet per round in any direction you wish. If the storm of axes moves into spaces containing creatures, they immediately must make another Dexterity saving throw or suffer damage again.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "KPquintessence",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Quintessence",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:A",
+    "prepared": false,
+    "level": 8,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 120,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "wis",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>angelic</em><br>By calling upon an archangel, you become infused with celestial essence and take on angelic features such as golden skin, glowing eyes, and ethereal wings. For the duration of the spell, your Armor Class can't be lower than 20, you can't be @Compendium[dnd5e.rules.pAcHCDJBhybiVzMF]{frightened}, and you are immune to necrotic damage.<br>In addition, each hostile creature that starts its turn within 120 feet of you or enters that area for the first time on a turn must succeed on a Wisdom saving throw or be frightened for 1 minute. A creature frightened in this way is restrained. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or if the effect ends for it, the creature is immune to the frightening effect of the spell until you cast <em>quintessence</em> again.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

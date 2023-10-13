@@ -1,0 +1,90 @@
+{
+  "_id": "KPbloodstrike",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Blood Strike",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "minute",
+      "cost": "10",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "Special (see below)"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a blood relative of the target",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>By performing this ritual, you can cast a spell on one nearby creature and have it affect a different, more distant creature. Both targets must be related by blood (no more distantly than first cousins). Neither of them needs to be a willing target.<br>The <em>blood strike</em> ritual is completed first, taking 10 minutes to cast on yourself. Then the spell to be transferred is immediately cast by you on the initial target, which must be close enough to touch no matter what the spell's normal range is. The secondary target must be within 1 mile and on the same plane of existence as you. If the second spell allows a saving throw, it's made by the secondary target, not the initial target. If the saving throw succeeds, any portion of the spell that's avoided or negated by the secondary target affects the initial target instead.<br>A creature can be the secondary target of <em>blood strike</em> only once every 24 hours; subsequent attempts during that time take full effect against the initial target with no chance to affect the secondary target.<br>Only spells that have a single target can be transferred via blood stike. For example, a <em>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{fireball}</em> spell can't be cast through <em>blood strike</em>, but <em>@Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{magic missile}</em> or <em>@Compendium[dnd5e.spells.2IWiZAJtOGDoKjiz]{gaseous form}</em> can be.<br>Alternatively, you can choose one affliction (anything that could be cured by <em>@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{greater restoration}</em> or <em>@Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{lesser restoration}</em>) currently affecting the initial creature and transfer it to the secondary creature, which then makes any applicable saving throw against the effect. If the saving throw fails or there is no saving throw, the affliction transfers completely and no longer affects the initial target. If the saving throw succeeds, the initial creature is still afflicted and also suffers anew any damage or conditions associated with first exposure to the affliction.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

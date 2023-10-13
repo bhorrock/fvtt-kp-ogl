@@ -1,0 +1,278 @@
+{
+  "_id": "KPwinddragonwyrmling",
+  "name": "Wind Dragon Wyrmling",
+  "permission": {
+    "default": 0
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "min": 3,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "dex": {
+        "value": 14,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 6
+      },
+      "con": {
+        "value": 16,
+        "min": 3,
+        "proficient": 1,
+        "mod": 3,
+        "save": 4
+      },
+      "int": {
+        "value": 12,
+        "min": 3,
+        "proficient": 0,
+        "mod": 1,
+        "save": 1
+      },
+      "wis": {
+        "value": 11,
+        "min": 3,
+        "proficient": 1,
+        "mod": 0,
+        "save": 2
+      },
+      "cha": {
+        "value": 14,
+        "min": 3,
+        "proficient": 1,
+        "mod": 2,
+        "save": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 14
+      },
+      "hp": {
+        "value": 45,
+        "min": 0,
+        "max": 45,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "7d8+14"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 80,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Howling wind encircles the white- and gray-scaled dragon, filling and pushing its wings without the need for them to beat.</em><br>Wind dragons view anywhere touched by air as their property, and mortals point to them as the epitome of arrogance. Their narcissism is not without reason, for awe-inspiring power supports their claims of rightful control. To the dragons of the shifting gales, strength is the ultimate arbiter. Although wind dragon wyrmlings are the weakest of the newborn dragons, they grow in power rapidly, and few fully-grown dragons are seen as stronger.<br><em><strong>Braggarts and Bullies.</strong></em> Wind dragons number among the greatest bullies and worst tyrants among mortal creatures. The sometimes foolhardy creatures take personal offense at any perceived challenge and great pleasure in humiliating rivals. They claim great swathes of territory but care little for its governance, and they perceive the mortals in that territory as possessions. Vassals receive only dubious protection in exchange for unflinching loyalty. A wind dragon might seek bloody vengeance for the murder of a follower, but it’s unlikely to go to any length to prevent the loss of life in the first place.<br><em><strong>Lords of the Far Horizons.</strong></em> Some believe that the dragons of the winds claim much more than they are capable of controlling or patrolling. Because they so love altitude, they prefer to rule and meet with earth-bound supplicants at the highest point available: the summit of a great mountain or atop a towering monument erected by fearful slaves. But these dragons are also driven by wanderlust, and often travel far from their thrones. They always return eventually, ready to subjugate new generations and to press a tyrannical claw on the neck of anyone who questions their right to rule.<br><em><strong>Perpetual Infighting.</strong></em> These wandering tyrants are even more territorial among their own kind than they are among groundlings. Simple trespass by one wind dragon into the territory of another can lead to a battle to the death. Thus their numbers never grow large, and the weakest among them are frequently culled.<br>Wind dragons’ hoards typically consist of only a few truly valuable relics. Other dragons might sleep on a bed of coins, but common things bore wind dragons quickly. While all true dragons desire and display great wealth, wind dragons concentrate their riches in a smaller number of notable trophies or unique historic items—often quite portable.<br><h2>Wind Dragon’s Lair</h2><br>Wind dragons make their lairs in locations where they can overlook and dominate the land they claim as theirs, but remote enough so the inhabitants can’t pester them with requests for protection or justice. They have little to fear from the elements, so a shallow cave high up on an exposed mountain face is ideal. Wind dragons enjoy heights dotted with rock spires and tall, sheer cliffs where the dragon can perch in the howling wind and catch staggering updrafts and downdrafts sweeping through the canyons and tearing across the crags. Non-flying creatures find these locations much less hospitable.<br><h3>Lair Actions</h3><br>On initiative count 20 (losing initiative ties), the dragon takes a lair action to generate one of the following effects; the dragon can’t use the same effect two rounds in a row.<ul><li>Sand and dust swirls up from the floor in a 20-foot radius sphere within 120 feet of the dragon at a point the dragon can see. The sphere spreads around corners. The area inside the sphere is lightly obscured, and each creature in the sphere at the start of its turn must make a successful DC 15 Constitution saving throw or be blinded for 1 minute. A blinded creature repeats the saving throw at the start of each of its turns, ending the effect on itself with a success.</li><li>Fragments of ice and stone are torn from the lair’s wall by a blast of wind and flung along a 15-foot cone. Creatures in the cone take 18 (4d8) bludgeoning damage, or half damage with a successful DC 15 Dexterity saving throw.</li><li>A torrent of wind blasts outward from the dragon in a 60-foot radius, either racing just above the floor or near the ceiling. If near the floor, it affects all creatures standing in the radius; if near the ceiling, it affects all creatures flying in the radius. Affected creatures must make a successful DC 15 Strength saving throw or be knocked prone and stunned until the end of their next turn.</li><br>Content licensed under the @Compendium[koboldpressogl.koboldpressmonsters.KPOGL]{Open Game License}",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": "dragon",
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 200
+      },
+      "source": "ToB"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "lightning"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "blindsight 10 ft., darkvision 60 ft.",
+      "languages": {
+        "value": [
+          "draconic",
+          "primordial"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "paralyzed"
+        ]
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {},
+      "spell2": {},
+      "spell3": {},
+      "spell4": {},
+      "spell5": {},
+      "spell6": {},
+      "spell7": {},
+      "spell8": {},
+      "spell9": {}
+    },
+    "bonuses": {
+      "mwak": "",
+      "rwak": "",
+      "msak": "",
+      "rsak": "",
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 1,
+        "initiative": 20
+      }
+    }
+  },
+  "sort": 0,
+  "flags": {},
+  "img": "icons/mystery-man.png",
+  "token": {
+    "flags": {},
+    "name": "Wind Dragon Wyrmling",
+    "displayName": 20,
+    "img": "icons/mystery-man.png",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "KPwinddragonwyrmling",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": []
+}

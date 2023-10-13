@@ -1,0 +1,95 @@
+{
+  "_id": "KPgreendecay",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Green Decay",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,DM:M",
+    "prepared": false,
+    "level": 4,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "msak",
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>mythos</em><br>Your touch inflicts a nauseating, alien rot. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with the supernatural disease green decay (see below), and creatures within 15 feet of the target who can see it must make a successful Constitution saving throw or become @Compendium[dnd5e.rules.prcOUhkWEVppFVbg]{poisoned} until the end of their next turn.<br>You lose concentration on this spell if you can't see the target at the end of your turn.<br><em><strong>Green Decay.</strong></em> The flesh of a creature that has this disease is slowly consumed by a virulent extraterrestrial fungus. While the disease persists, the creature has disadvantage on Charisma and Wisdom checks and on Wisdom saving throws, and it has vulnerability to acid, fire, and necrotic damage. An affected creature must make a Constitution saving throw at the end of each of its turns. On a failed save, the creature takes 1d6 necrotic damage, and its hit point maximum is reduced by an amount equal to the necrotic damage taken. If the creature gets three successes on these saving throws before it gets three failures, the disease ends immediately (but the damage and the hit point maximum reduction remain in effect). If the creature gets three failures on these saving throws before it gets three successes, the disease lasts for the duration of the spell, and no further saving throws are allowed.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

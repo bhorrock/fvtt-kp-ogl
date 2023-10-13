@@ -1,0 +1,90 @@
+{
+  "_id": "KPselfishwish",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Selfish Wish",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DC&SS",
+    "prepared": false,
+    "level": 9,
+    "school": "con",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pint of blood and a black sapphire worth at least 2,500 gp",
+      "consumed": false,
+      "cost": 2500,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>The <em>selfish wish</em> grants the desires of a supplicant in exchange for power. Like a <em>@Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{wish}</em>, it alters reality, but in doing so it grants the caster power, while the end result of the <em>selfish wish</em> is often a twisted or misinterpreted version of the actual desire.<br>The wish-maker must provide a pint of his or her blood and state their desire. The caster then completes the spell and provides whatever effect is asked for. However, unlike wish, the GM must pervert any casting of this spell. If the <em>selfish wish</em> is worded with great care, the negative effects may be less hideous than they would be otherwise, but they should still occur. A <em>selfish wish</em> is never granted without drawbacks.<br>A <em>selfish wish</em> can produce any of the effects that a <em>@Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{wish}</em> can. If greater effects than those are wished for, the drawbacks become even more dangerous (e.g., a <em>@Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{wish}</em> for a great increase in Strength may come with an equal reduction in Intelligence).<br>In exchange for casting the <em>selfish wish</em>, the caster also receives an influx of power. The caster receives the following bonuses for 2 minutes:<ul><li>Doubled speed</li><li>one extra action each round (as haste)</li><li>Armor class increases by 3</li>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

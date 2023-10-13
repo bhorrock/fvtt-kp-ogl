@@ -1,0 +1,90 @@
+{
+  "_id": "KPexchangedknowledge",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Exchanged Knowledge",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "W21",
+    "prepared": false,
+    "level": 3,
+    "school": "div",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a book containing lore about any subject, which the spell consumes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "cha",
+      "dc": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>When you cast this spell, you open a conduit to the Castle Library, granting access to difficult-to-obtain information. For the spell's duration, you double your proficiency bonus whenever you make an Intelligence check to recall information about any subject.<br>Additionally, you can gain advantage on an Intelligence check to recall information. To do so, you must either sacrifice another lore-filled book or succeed on a Charisma saving throw. On a failed save, the spell ends, and you have disadvantage on all Intelligence checks to recall information for 1 week. A <em>@Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{remove curse}, @Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{greater restoration}</em>, or <em>@Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{wish}</em> spell ends this effect.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

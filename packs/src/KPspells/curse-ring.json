@@ -1,0 +1,90 @@
+{
+  "_id": "KPcursering",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Curse Ring",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ri",
+    "prepared": false,
+    "level": 5,
+    "school": "nec",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch"
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent until discharged"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "250 gp worth of diamond dust, which the spell consumes",
+      "consumed": false,
+      "cost": 250,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>ring</em><br>You lay a curse upon a ring you touch that isn't being worn or carried. When you cast this spell, select one of the possible effects of <em>@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{bestow curse}</em>. The next creature that willingly wears the ring suffers the chosen effect with no saving throw. The curse transfers from the ring to the wearer once the ring is put on; the ring becomes a mundane ring that can be taken off, but the curse remains on the creature that wore the ring until the curse is removed or dispelled. An <em>@Compendium[dnd5e.spells.3OZnNhunvRtPOQmH]{identify}</em> spell cast on the cursed ring reveals the fact that it is cursed.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

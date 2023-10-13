@@ -1,0 +1,95 @@
+{
+  "_id": "KPthunderclap",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Thunderclap",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 3,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "radius"
+    },
+    "actionType": "save",
+    "save": {
+      "ability": "con",
+      "dc": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d4",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "description": {
+      "value": "<p>You clap your hands, emitting a peal of thunder. Each creature within 20 feet of you takes 8d4 thunder damage and is @Compendium[dnd5e.rules.XnDPIa0MLWhGvuQg]{deafened} for 1d8 rounds, or it takes half as much damage and isn't deafened if it makes a successful Constitution saving throw. On a saving throw that fails by 5 or more, the creature is also stunned for 1 round.<br>This spell doesn't function in an area affected by a <em>@Compendium[dnd5e.spells.5VhqFROQYjr1P9lp]{silence}</em> spell. Very brittle material such as crystal might be shattered if it's within range, at the GM's discretion; a character holding such an object can protect it from harm by making a successful Dexterity saving throw.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

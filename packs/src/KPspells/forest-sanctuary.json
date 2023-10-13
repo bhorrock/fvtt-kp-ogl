@@ -1,0 +1,90 @@
+{
+  "_id": "KPforestsanctuary",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Forest Sanctuary",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,ToOM:PH",
+    "prepared": false,
+    "level": 9,
+    "school": "abj",
+    "activation": {
+      "type": "minute",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 300,
+      "units": "ft"
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a bowl of fresh rainwater and a tree branch",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 200,
+      "units": "ft",
+      "type": "cube"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>While in a forest, you create a protective, 200-foot cube centered on a point you can see within range. The atmosphere inside the cube has the lighting, temperature, and moisture that is most ideal for the forest, regardless of the lighting or weather outside the area. The cube is transparent, and creatures and objects can move freely through it. The cube protects the area inside it from storms, strong winds, and floods, including those created by magic such as <em>@Compendium[dnd5e.spells.ZPd73HtKF3At11jh]{control weather}, @Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{control water}</em>, or <em>@Compendium[dnd5e.spells.mF52ldF79Cr7wfQo]{meteor swarm}</em>. Such spells can't be cast while the spellcaster is in the cube.<br>You can create a permanently protected area by casting this spell at the same location every day for one year.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

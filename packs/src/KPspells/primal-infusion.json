@@ -1,0 +1,90 @@
+{
+  "_id": "KPprimalinfusion",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Primal Infusion",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,ToOM:PH",
+    "prepared": false,
+    "level": 5,
+    "school": "trs",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a bit of fur from a carnivorous animal",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You channel the fury of nature, drawing on its power. Until the spell ends, you gain the following benefits:<ul><li>You gain 30 temporary hit points. If any of these remain when the spell ends, they are lost.</li><li>You have advantage on attack rolls when one of your allies is within 5 feet of the target and the ally isn't @Compendium[dnd5e.rules.tUYvSkhggFcMpVw5]{incapacitated}.</li><li>Your weapon attacks deal an extra 1d10 damage of the same type dealt by the weapon on a hit.</li><li>You gain a +2 bonus to AC.</li><li>You have proficiency on Constitution saving throws.</li>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

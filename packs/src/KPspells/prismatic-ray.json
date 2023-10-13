@@ -1,0 +1,95 @@
+{
+  "_id": "KPprismaticray",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Prismatic Ray",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:Ru",
+    "prepared": false,
+    "level": 5,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": 100,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "actionType": "rsak",
+    "damage": {
+      "parts": [
+        [
+          "8d10",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>A ray of shifting color springs from your hand. Make a ranged spell attack against a single creature you can see within range. The ray's effect and the saving throw that applies to it depend on which color is dominant when the beam strikes its target, determined by rolling a d8.<table><tr><th>d8</th><th>Color</th><th>Effect</th><th>Saving Throw</th></tr><tr><td>1</td><td>Red</td><td>8d10 fire damage</td><td>Dexterity</td></tr><tr><td>2</td><td>Orange</td><td>8d10 acid damage</td><td>Dexterity</td></tr><tr><td>3</td><td>Yellow</td><td>8d10 lightning damage</td><td>Dexterity</td></tr><tr><td>4</td><td>Green</td><td>Target Poisoned</td><td>Constitution</td></tr><tr><td>5</td><td>Blue</td><td>Target Deafened</td><td>Constitution</td></tr><tr><td>6</td><td>Indigo</td><td>Target Frightened</td><td>Wisdom</td></tr><tr><td>7</td><td>Violet</td><td>Target Stunned</td><td>Constitution</td></tr><tr><td>8</td><td>Shifting Ray</td><td>Target @Compendium[dnd5e.rules.995mfaI3z7WtY7vK]{Blinded}</td><td>Constitution</td></tr></table><br>A target takes half as much damage on a successful Dexterity saving throw. A successful Constitution or Wisdom saving throw negates the effect of a ray that inflicts a condition on the target; on a failed save, the target is affected for 5 rounds or until the effect is negated. If the result of your attack roll is a critical hit, you can choose the color of the beam that hits the target, but the attack does not deal additional damage.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}

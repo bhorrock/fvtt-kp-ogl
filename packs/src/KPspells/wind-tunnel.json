@@ -1,0 +1,90 @@
+{
+  "_id": "KPwindtunnel",
+  "flags": {},
+  "type": "spell",
+  "img": "icons/mystery-man.png",
+  "name": "Wind Tunnel",
+  "permission": {
+    "default": 0
+  },
+  "system": {
+    "source": "DM,HH,DM:E",
+    "prepared": false,
+    "level": 1,
+    "school": "evo",
+    "activation": {
+      "type": "action",
+      "cost": "1",
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a paper straw",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "line"
+    },
+    "actionType": "util",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null
+    },
+    "description": {
+      "value": "<p>You create a swirling tunnel of strong wind extending from yourself in a direction you choose. The tunnel is a line 60 feet long and 10 feet wide. The wind blows from you toward the end of the line, which is stationary once created. A creature in the line moving with the wind (away from you) adds 10 feet to its speed, and ranged weapon attacks launched with the wind don't have disadvantage because of long range. Creatures in the line moving against the wind (toward you) spend 2 feet of movement for every 1 foot they move, and ranged weapon attacks launched along the line against the wind are made with disadvantage.<br>The wind tunnel immediately disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the line. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance of extinguishing them.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "ability": null,
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "formula": "",
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "effects": [],
+    "folder": null,
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.3.1",
+      "coreVersion": "11.311",
+      "createdTime": 1661787234066,
+      "modifiedTime": 1696391872929
+    }
+  },
+  "sort": 0
+}
